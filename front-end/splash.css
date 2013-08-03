@@ -1,0 +1,535 @@
+@font-face{font-family:FeuraSansWeb;src:url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Light.woff?1375393909440) format('woff'),url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Light.svg?1375393909440#FeuraSansWebLight) format('svg');font-weight:300;font-style:normal}
+@font-face{font-family:FeuraSansWeb;src:url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Regular.woff?1375393909440) format('woff'),url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Regular.svg?1375393909440#FeuraSansWebRegular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:FeuraSansWeb;src:url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Medium.woff?1375393909440) format('woff'),url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Medium.svg?1375393909440#FeuraSansWebMedium) format('svg');font-weight:500;font-style:normal}
+@font-face{font-family:FeuraSansWeb;src:url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Bold.woff?1375393909440) format('woff'),url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Bold.svg?1375393909440#FeuraSansWebBold) format('svg');font-weight:600;font-style:normal}
+@font-face{font-family:'Open Sans Light';src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Light-webfont.eot');src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),url('http://mozorg.cdn.mozilla.net//media/fonts/OpenSans-Light-webfont.woff') format('woff'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Light-webfont.ttf') format('truetype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'Open Sans Light';src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-LightItalic-webfont.eot');src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-LightItalic-webfont.woff') format('woff'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-LightItalic-webfont.svg#OpenSansRegular') format('svg');font-weight:normal;font-style:italic}
+@font-face{font-family:'Open Sans';src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.eot');src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.woff') format('woff'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'Open Sans Light';src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Semibold-webfont.eot');src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Semibold-webfont.woff') format('woff'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');font-weight:bold;font-style:normal}
+@font-face{font-family:'Open Sans';src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Bold-webfont.eot');src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Bold-webfont.woff') format('woff'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Bold-webfont.ttf') format('truetype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');font-weight:bold;font-style:normal}
+@font-face{font-family:'Open Sans';src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Italic-webfont.eot');src:url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Italic-webfont.woff') format('woff'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Italic-webfont.ttf') format('truetype'),url('http://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');font-weight:normal;font-style:italic}
+	body{
+			margin: 0;
+			padding:0;
+			background: #fff;
+			font-family: "Open Sans Light", FeuraSansWeb, sans-serif, arial;
+		}
+		a{
+			text-decoration: none;
+		}
+		.mozH-header-wrap{
+			width: 100%;
+			height: 50px;
+			background: #333;
+			filter: alpha(opacity=70);
+			background: rgba(0, 0, 0, 0.7);
+			box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+			position: fixed;
+			top: 0;
+			left:0;
+			z-index: 300;
+		}
+		.mozH-head{
+			width: 90%;
+			margin: 0 auto;
+		}
+		.mozH-head .mozH-noStyle li{
+			cursor:pointer;
+		}
+		.mozH-logo{
+			padding: 8px;
+			font-size: 23px;
+			font-family: FeuraSansWeb, "Open Sans";
+			color: #fff;
+			font-weight: bold;
+			text-shadow: 0 0 3px #000;
+		}
+		.mozH-logo .text{
+			font-family: "Open Sans", sans-serif;
+			font-weight: lighter;
+		}
+		.mozH-lfloat{
+			float: left;
+			display: inline-block;
+		}
+		.mozH-rfloat{
+			float: right;
+			display: inline-block;
+		}
+		.mozH-banner-wrap{
+			margin-top: -50px;
+			height: 680px;
+			overflow: hidden;
+		}
+		.mozH-banner:hover img{
+		opacity: 1;
+		transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transition-property: opacity, transform;
+		-o-transition-property: opacity, transform;
+		-webkit-transition-property: opacity, transform;
+		-ms-transition-property: opacity, transform;
+		transition-property: opacity, transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+		}
+		.mozH-banner img{
+			width: 100%;
+			z-index: -1;
+			min-height: 660px;
+		opacity: 0.9;
+		transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-moz-transition-property: opacity, transform;
+		-o-transition-property: opacity, transform;
+		-webkit-transition-property: opacity, transform;
+		-ms-transition-property: opacity, transform;
+		transition-property: opacity, transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+		}
+		.mozH-bannerTag{
+			position: absolute;
+			margin: 10%;
+			margin-top: 500px;
+			font: 20px "Open Sans Light";
+			font-weight: lighter;
+			color:#fff;
+			text-shadow: 0 0 7px #333;
+		}
+		.mozH-fixBanner{
+			margin-top: 260px;
+		}
+		h1{
+			font: 31px "Open Sans Light";
+			font-weight: bold;
+			color: #fff;
+			text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+			margin-bottom: 3px;
+		}
+		.mozH-block-wrap{
+			width: 100%;
+			position: relative;
+			z-index: 222;
+			margin-top: -20px;
+		}
+		.mozH-block{
+			display: inline-block;
+			width: 100%;
+			min-height: 220px;
+			padding-top: 10px;
+			background: #fff;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+			padding-bottom: 20px;
+		}
+		.mozH-noStyle{
+			margin: 0;
+			margin-top: 5px;
+			padding: 8px;
+			list-style: none;
+		}
+		.mozH-noStyle li .mozH-topL{
+			color: #f5f5f5;
+			font-weight: bold;
+			font-size: 12px;
+			font-family: "Open Sans Light";
+			padding: 8px;
+		}
+		.mozH-noStyle li:hover .mozH-flyout-wrap{
+			display:block;
+			margin-top: 20px;
+			opacity:1;
+			-moz-transition-property: opacity, margin-top;
+		-o-transition-property: opacity, margin-top;
+		-webkit-transition-property: opacity, margin-top;
+		-ms-transition-property: opacity, margin-top;
+		transition-property: opacity, margin;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+		animation: dropdown 500ms alternate;
+		}
+		@keyframes dropdown{
+			from {margin-top:10px;opacity:0;}
+			to {margin-top:20px;opacity:1;}
+		}
+		@keyframes dropup{
+			from {margin-top:20px;opacity:1;}
+			to {margin-top:10px;opacity:0;}
+		}
+		.mozH-noStyle li{
+			margin: 0;
+			padding: 0;
+			float: left;
+		}
+		h2{
+			font-size: 35px;
+			color: #555;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 15px;
+			padding: 8px;
+		}
+		.mozH-icon{
+			padding: 5px;
+		}
+		.mozH-icon img{
+			width: 100px;
+			height: 100px;
+		}
+		.mozH-text a{
+			color: #333;
+		}
+		.mozH-text a:hover{
+			color: #555;
+			text-decoration: underline;
+		}
+		
+		.mozH-text{
+			padding: 5px;
+			font-size: 13px;
+			font-family: "Open Sans Light";
+			font-weight: lighter;
+			color: #555;
+		}
+		.mozH-innerB{
+			width: 700px;
+			margin: 0 auto;
+		}
+		.mozH-smallBlock img{
+			min-height: 480px;
+		}
+		.mozH-smallBlock{
+			height: 480px;
+		}
+		.mozH-topMost{
+			margin-top: -210px;
+		}
+		.mozH-footer-wrap{
+			width: 100%;
+			min-height: 240px;
+			background: #008fff;
+		}
+		.mozH-footer{
+			width: 978px;
+			margin: 0 auto;
+			padding-top: 30px;
+		}
+.mozH-sponsor{
+		width: 360px;
+	}
+	h3{
+		color: #fff;
+		text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+		font-size: 15px;
+		font-weight: bold;
+		border-bottom: 1px solid #0378d4;
+		font-weight: lighter;
+		padding: 5px;
+	}
+	#signup input[type="text"]{
+		font-size: 14px;
+		padding: 10px 16px;
+		width: 330px;
+		border: 1px solid #0378d4;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.4) inset;
+		border-radius: 5px;
+		margin-top: 3px;
+	}
+	#signup input[type="submit"]{
+		padding: 6px 12px;
+		color: #555;
+		background: #fbfbfb;
+		border: 1px solid #0378d4;
+		margin-top: 10px;
+		border-radius: 3px;
+		font: bold 12px FeuraSansWeb;
+		cursor: pointer;
+	}
+	#signup input[type="submit"]:active{
+		background: #ddd;
+	}
+	.mozH-s{
+		width: 440px;
+	}
+	.mozH-support-wrap{
+		width: 100%;
+		position: relative;
+		z-index: 121;
+		min-height: 120px;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+		overflow:hidden;
+	}
+	.mozH-support{
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 27px;
+	}
+	.mozH-support .mozH-rfloat{
+		margin-top: 30px;
+	}
+	.mozH-support .mozH-rfloat:hover img{
+		opacity:1;
+		transform: scale(1.1) rotateX(360deg);
+		-ms-transform: scale(1.1) rotateX(360deg);
+		-o-transform: scale(1.1) rotateX(360deg);
+		-moz-transform: scale(1.1) rotateX(360deg);
+		-webkit-transform: scale(1.1) rotateX(360deg);
+		-moz-transition-property: opacity, transform;
+		-o-transition-property: opacity, transform;
+		-webkit-transition-property: opacity, transform;
+		-ms-transition-property: opacity, transform;
+		transition-property: opacity, transform;
+		-moz-transition-duration: 600ms;
+		-o-transition-duration: 600ms;
+		-webkit-transition-duration: 600ms;
+		-ms-transition-duration: 600ms;
+		transition-duration: 600ms;
+		
+	}
+	.mozH-support .mozH-rfloat img{
+		opacity: 0.8;
+		transform: scale(1) rotateX(0deg);
+		-ms-transform: scale(1) rotateX(0deg);
+		-o-transform: scale(1) rotateX(0deg);
+		-moz-transform: scale(1) rotateX(0deg);
+		-webkit-transform: scale(1) rotateX(0deg);
+		-moz-transition-property: opacity, transform;
+		-o-transition-property: opacity, transform;
+		-webkit-transition-property: opacity, transform;
+		-ms-transition-property: opacity, transform;
+		transition-property: opacity, transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+	}
+	.mozH-fT{
+		font-size: 11px;
+		margin-top: 30px;
+		padding: 10px 5px;
+	}
+	.mozH-partners img:hover{
+	opacity:1;
+		transform: scale(1.4) rotateY(-30deg);
+		-ms-transform: scale(1.4) rotateY(-30deg);
+		-o-transform: scale(1.4) rotateY(-30deg);
+		-moz-transform: scale(1.4) rotateY(-30deg);
+		-webkit-transform: scale(1.4) rotateY(-30deg);
+		-moz-transition-property: opacity, transform;
+		-o-transition-property: opacity, transform;
+		-webkit-transition-property: opacity, transform;
+		-ms-transition-property: opacity, transform;
+		transition-property: opacity, transform;
+		-moz-transition-duration: 600ms;
+		-o-transition-duration: 600ms;
+		-webkit-transition-duration: 600ms;
+		-ms-transition-duration: 600ms;
+		transition-duration: 600ms;
+		
+	}
+	.mozH-partners img{
+		width: 150px;
+		opacity: 0.8;
+		transform: scale(1) rotateX(0deg);
+		-ms-transform: scale(1) rotateX(0deg);
+		-o-transform: scale(1) rotateX(0deg);
+		-moz-transform: scale(1) rotateX(0deg);
+		-webkit-transform: scale(1) rotateX(0deg);
+		-moz-transition-property: opacity, transform;
+		-o-transition-property: opacity, transform;
+		-webkit-transition-property: opacity, transform;
+		-ms-transition-property: opacity, transform;
+		transition-property: opacity, transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+	}
+	.mozH-fixForOther{
+		margin-top: 330px;
+	}
+	.mozH-pointer{
+		background: url("./lWAwv1.png") no-repeat;
+		margin-left: 55px;
+		margin-top: -15px;
+		position: relative;
+		z-index: 333;
+		padding: 8px;
+	}
+	.mozH-flyout-wrap{
+		position: absolute;
+		padding-top: 30px;
+		margin-left: -30px;
+		display:none;
+		margin-top: 10px;
+	}
+	.mozH-flyout{
+		display: inline-block;
+		background: #fff;
+		background: rgba(255, 255, 255, 0.9);
+		border: 1px solid #777;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+		width: 130px;
+		padding-bottom: 4px;
+		margin-top: -13px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.mozH-links{
+		padding-top: 5px;
+	}
+	.mozH-links a{
+		display: block;
+		color:#555;
+		margin:0;
+		padding:5px;
+		padding-left:13px;
+		font-size: 13px;
+	}
+	.mozH-fixPointer{
+		margin-left: 45px;
+	}
+	.mozH-links a:hover{
+		background: #555;
+		color: #fff;
+	}
+	.mozH-content-wrap{
+		padding:20px;
+		margin-left: 10px;
+		width: 970px;
+	}
+	.mozH-heading{
+		padding: 8px 6px;
+		font-size: 28px;
+		font-weight: bold;
+		color: #555;
+		border-bottom: 1px solid #ddd;
+	}
+	.mozH-social{
+		padding: 10px;
+	}
+	.mozH-content .mozH-text{
+		padding: 5px;
+		padding-top: 10px;
+	}
+	.mozH-team tr{
+		padding: 5px;
+	}
+	.mozH-team tr td{
+		padding: 5px;
+	}
+	.mozH-team{
+		width: 800px;
+	}
+	.mozH-team img{
+		width: 120px;
+		height: 120px;
+		border: 1px solid #ccc;
+		box-shadow: 0 0 3px #c3d1ec;
+		padding: 6px;
+		border-radius: 3px;
+	}
+	.mozH-text{
+		display: inline-block;
+	}
+	.mozH-marketplaceStyle{
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHZpZXdCb3g9IjAgMCAxMjAgMTIwIgogICAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIgogICAgIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZWZzPgogICAgCTxwYXR0ZXJuIGlkPSJkaWFnb25hbEhhdGNoIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iNCIgaGVpZ2h0PSI0Ij4KICAgIAkJPGcgc3R5bGU9ImZpbGw6I2ZmZjsgc3Ryb2tlOiNmN2Y3Zjc7IHN0cm9rZS13aWR0aDoxIj4KICAJCQkJPHBhdGggZD0iTS0xLDEgbDIsLTIiIC8+CiAgCQkJCTxwYXRoIGQ9Ik0wLDQgbDQsLTQiIC8+CiAgICAgICAgICAgCQk8cGF0aCBkPSJNMyw1IGwyLC0yIiAvPgogICAgICAgICAgICA8L2c+CgkJPC9wYXR0ZXJuPgogICAgPC9kZWZzPgoJPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNkaWFnb25hbEhhdGNoKSAiLz4KPC9zdmc+");
+	}
+	.mozH-text .mozH-noStyle li{
+		cursor: default;
+		width: 900px;
+		padding: 6px;
+	}
+	.mozH-text .mozH-noStyle .mozH-eventThumb{
+		float: left;
+		width: 313px;
+		border: 1px solid #ccc;
+		box-shadow: 0 0 4px #c3d1ec;
+		height: 122px;
+		overflow: hidden;
+	}
+	.mozH-text .mozH-noStyle li:hover .mozH-hiddenLink{
+		 margin-top:-33px;
+		 -moz-transform:scale(1.1);
+		 transform:scale(1.1);
+		 -o-transform:scale(1.1);
+		 -ms-transform:scale(1.1);
+		 -webkit-transform:scale(1.1);
+		-moz-transition-property: margin, transform;
+		-o-transition-property: margin, transform;
+		-webkit-transition-property: margin, transform;
+		-ms-transition-property: margin, transform;
+		transition-property: margin, transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+	}
+	h4{
+		padding: 5px;
+		margin:0;
+		font:14px "FeuraSansWeb";
+		color: #333;
+	}
+	.mozH-infoText{
+		padding: 5px;
+		font: 12px "Open Sans Light";
+		color: #555;
+	}
+	#h2{
+		font:bold 13px "Open Sans Light";
+		text-align:inherit;
+	}
+	.mozH-eventDescWrap{
+		float: left;
+		width: 550px;
+		padding: 5px;
+		margin-left: 10px; 
+	}
+	.mozH-hiddenLink{
+		padding: 5px;
+		background: #000;
+		background: rgba(0, 0, 0, 0.6);
+		color: #fff;
+		text-align: center;
+		position: relative;
+		margin-top:28px;
+		-moz-transform:scale(0.8);
+		transform:scale(0.8);
+		-o-transform:scale(0.8);
+		-ms-transform:scale(0.8);
+		-webkit-transform:scale(0.8);
+		-moz-transition-property: margin, transform;
+		-o-transition-property: margin, transform;
+		-webkit-transition-property: margin, transform;
+		-ms-transition-property: margin, transform;
+		transition-property: margin, transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+		width: 303px;
+	}
+	.mozH-hiddenLink a:hover{color: #fff;}
+	.mozH-hiddenLink a{
+		color: #f5f5f5;
+	}

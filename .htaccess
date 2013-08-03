@@ -1,0 +1,5 @@
+RewriteEngine ON
+RewriteRule ^about$	about.php [NC]
+RewriteRule ^team$	team.php [NC]
+RewriteRule ^tools$	tools.php [NC]
+RewriteRule ^popup-events$	events.php [NC]
