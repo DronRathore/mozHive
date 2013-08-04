@@ -192,13 +192,12 @@
 			height: 100px;
 		}
 		.mozH-text a{
-			color: #333;
+			color: #555;
+			font-weight: bold;
 		}
 		.mozH-text a:hover{
-			color: #555;
-			text-decoration: underline;
+			color: #333;
 		}
-		
 		.mozH-text{
 			padding: 5px;
 			font-size: 13px;
@@ -270,9 +269,10 @@
 		width: 100%;
 		position: relative;
 		z-index: 121;
-		min-height: 120px;
+		min-height: 140px;
 		box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
 		overflow:hidden;
+		background: #fff;
 	}
 	.mozH-support{
 		width: 90%;
@@ -282,13 +282,13 @@
 	.mozH-support .mozH-rfloat{
 		margin-top: 30px;
 	}
-	.mozH-support .mozH-rfloat:hover img{
+	.mozH-support .mozH-lfloat:hover img{
 		opacity:1;
-		transform: scale(1.1) rotateX(360deg);
-		-ms-transform: scale(1.1) rotateX(360deg);
-		-o-transform: scale(1.1) rotateX(360deg);
-		-moz-transform: scale(1.1) rotateX(360deg);
-		-webkit-transform: scale(1.1) rotateX(360deg);
+		transform: scale(1.1) rotateY(360deg);
+		-ms-transform: scale(1.1) rotateY(360deg);
+		-o-transform: scale(1.1) rotateY(360deg);
+		-moz-transform: scale(1.1) rotateY(360deg);
+		-webkit-transform: scale(1.1) rotateY(360deg);
 		-moz-transition-property: opacity, transform;
 		-o-transition-property: opacity, transform;
 		-webkit-transition-property: opacity, transform;
@@ -301,23 +301,23 @@
 		transition-duration: 600ms;
 		
 	}
-	.mozH-support .mozH-rfloat img{
+	.mozH-support .mozH-lfloat img{
 		opacity: 0.8;
-		transform: scale(1) rotateX(0deg);
-		-ms-transform: scale(1) rotateX(0deg);
-		-o-transform: scale(1) rotateX(0deg);
-		-moz-transform: scale(1) rotateX(0deg);
-		-webkit-transform: scale(1) rotateX(0deg);
+		transform: scale(1) rotateY(0deg);
+		-ms-transform: scale(1) rotateY(0deg);
+		-o-transform: scale(1) rotateY(0deg);
+		-moz-transform: scale(1) rotateY(0deg);
+		-webkit-transform: scale(1) rotateY(0deg);
 		-moz-transition-property: opacity, transform;
 		-o-transition-property: opacity, transform;
 		-webkit-transition-property: opacity, transform;
 		-ms-transition-property: opacity, transform;
 		transition-property: opacity, transform;
-		-moz-transition-duration: 300ms;
-		-o-transition-duration: 300ms;
-		-webkit-transition-duration: 300ms;
-		-ms-transition-duration: 300ms;
-		transition-duration: 300ms;
+		-moz-transition-duration: 600ms;
+		-o-transition-duration: 600ms;
+		-webkit-transition-duration: 600ms;
+		-ms-transition-duration: 600ms;
+		transition-duration: 600ms;
 	}
 	.mozH-fT{
 		font-size: 11px;
@@ -429,23 +429,6 @@
 		padding: 5px;
 		padding-top: 10px;
 	}
-	.mozH-team tr{
-		padding: 5px;
-	}
-	.mozH-team tr td{
-		padding: 5px;
-	}
-	.mozH-team{
-		width: 800px;
-	}
-	.mozH-team img{
-		width: 120px;
-		height: 120px;
-		border: 1px solid #ccc;
-		box-shadow: 0 0 3px #c3d1ec;
-		padding: 6px;
-		border-radius: 3px;
-	}
 	.mozH-text{
 		display: inline-block;
 	}
@@ -462,8 +445,11 @@
 		width: 313px;
 		border: 1px solid #ccc;
 		box-shadow: 0 0 4px #c3d1ec;
-		height: 122px;
+		height: 157px;
 		overflow: hidden;
+	}
+	.mozH-eventThumb img{
+		width: 313px;
 	}
 	.mozH-text .mozH-noStyle li:hover .mozH-hiddenLink{
 		 margin-top:-33px;
@@ -532,4 +518,100 @@
 	.mozH-hiddenLink a:hover{color: #fff;}
 	.mozH-hiddenLink a{
 		color: #f5f5f5;
+	}
+	.mozH-flyoutFix{
+		padding-top: 24px;
+	}
+	.mozH-Type{
+		display: inline-block;
+		padding: 3px;
+		font: 12px "Open Sans Light";
+		font-weight: lighter;
+		color: #555;
+	}
+	.mozH-image{
+		width: 300px;
+		padding: 5px;
+		border: 1px solid #ccc;
+		box-shadow: 0 0 3px #c3d1ec;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: -4px;
+	}
+	.text{
+		cursor:pointer;
+	}
+	.mozH-topList{
+		width: 480px;
+		margin: 0 auto;
+	}
+	.mozH-bigimage{
+		background: url("../blurTeam.jpg") top center;
+		background-attachment:fixed;
+	}
+	.mozH-iLogo{
+		width: 200px;
+		float: left;
+		margin-top: -23px;
+		padding-right: 20px;
+		border-right: 1px solid #ddd;
+	}
+	.mozH-fixH2{
+		margin-top: 0px;
+		padding-left: 20px;
+	}
+	.mozH-centerBodyWrap{
+		margin: 40px auto;
+		margin-top: 120px;
+		width: 600px;
+	}
+	.mozH-centerBody{
+		width: 100%;
+		display: inline-block;
+		background: #fff;
+		background: rgba(255, 255, 255, 0.9);
+		min-height: 400px;
+		border: 1px solid #999;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.32);
+		border-radius: 5px;
+	}
+	.mozH-centerBody h3{
+		color: #555;
+		font: 19px "Open Sans Light";
+		text-shadow: none;
+		padding-left: 23px;
+		border-bottom-color: #ddd;
+	}
+	.mozH-contactForm{
+		padding-left: 60px;
+		font: 15px FeuraSansWeb;
+		color: #888;
+	}
+	.mozH-contactForm input[type="text"],input[type="email"], textarea{
+		padding: 6px 8px;
+		font: 14px "Open Sans Light";
+		color: #333;
+		width: 280px;
+		resize: none;
+	}
+	.mozH-contactForm textarea{
+		height: 150px;
+	}
+	.mozH-contactForm input[type="text"]:focus,input[type="email"]:focus, textarea:focus{
+		border:1px solid #008fff;
+		box-shadow: 0 0 4px #c3d1ec inset;
+	}
+	.mozH-submitButton{
+		margin-top: 10px;
+		background: #f5f5f5;
+		border: 1px solid #ccc;
+		padding: 8px 14px;
+		cursor: pointer;
+		box-shadow: 0 0 2px #c3d1ec;
+		border-radius: 3px;
+		font: 13px FeuraSansWeb;
+	}
+	.mozH-submitButton:active{
+		background: #eee;
+		border: 1px solid #aaa;
 	}

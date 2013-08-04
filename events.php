@@ -8,7 +8,6 @@
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
 </head>
 <body class="mozH-marketplaceStyle">
-<div id="fb-root"></div>
 <?php
 	require_once("/header.php");
 	echo $header;
@@ -33,16 +32,16 @@
 				<li>
 					<div class="mozH-eventWrap">
 						<div class="mozH-eventThumb">
-							<img src="https://webmaker.org/img/img-Guides-Kitchen-Party.jpg"/>
+							<img src="http://www.hiveathens.org/media/k2/items/cache/ada9a09acea936d776a6f55c82778c43_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									For Awesome stuff <a href="https://webmaker.makes.org/thimble/how-to-host-a-kitchen-party">Jack in here</a>
+									Sounds Awesome? <a href="./popup-events/music-jam">Jack in here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
 							<div class="mozH-eventDesc">
-								<h4>Kitchen Party</h4>
+								<h4>Music Jam<div class="mozH-Type"><b>·</b> Workshop</div></h4>
 								<div class="mozH-text">
-								A small get together with your known ones or with some kids in your neighbourhood. Spend an hour on a rainy day, hang out as a family on the computer, learn to hack with a friend. Make cool things on the web!
+								On MusicJam we create together our own musical instruments and will be for awhile a complex different from the other. The keys, percussion, guitar and other experimental instruments reside within computers. "We ourselves" musical instruments in the real world and "play" music. 
 								</div>
 							</div>
 						</div>
@@ -51,15 +50,15 @@
 				<li>
 					<div class="mozH-eventWrap">
 						<div class="mozH-eventThumb">
-							<img src="https://webmaker.org/img/img-Guides-Hack-Jam.jpg"/>
+							<img src="http://www.hiveathens.org/media/k2/items/cache/e0a70f72bdae9885bfc32d7cd19a26a1_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									More cool info, <a href="https://webmaker.makes.org/thimble/host-a-hack-jam">follow here</a>
+									More cool info, <a href="./popup-events/robotikes-missions">follow here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
-						<h4>Hack Jam!</h4>
+						<h4>ROBOTIKES MISSIONS<div class="mozH-Type"><b>·</b> Workshop</div></h4>
 								<div class="mozH-text">
-								Team up people with different skill-sets to explore an interesting challenge. Collaboratively build something new or improve something that already exists. Learn and teach new hacking skills
+								Robots in action how to "see" the robots? How they decide to quit or to twist to avoid an obstacle? How to understand that arrived to the point that they want? To answer all these questions, you will assemble your robot and you will see how it works in practice.
 								</div>
 						</div>
 					</div>
@@ -67,29 +66,74 @@
 				<li>
 					<div class="mozH-eventWrap">
 						<div class="mozH-eventThumb">
-							<img src="https://webmaker.org/img/img-Guides-Hive-Pop-up.jpg"/>
+							<img src="http://www.hiveathens.org/media/k2/items/cache/4965657af186b9092c7a96976ffe881c_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									Want more ideas? <a href="https://webmaker.makes.org/thimble/host-a-hive-popup">Follow here</a>
+									Thrilled? <a href="./popup-events/webmaker">Follow here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
-						<h4>Hive Pop-Up</h4>
+						<h4>REMIXING WEBPAGE<div class="mozH-Type"><b>·</b> Workshop</div></h4>
 								<div class="mozH-text">
-								A Hive Pop-Up is fantastic way to bring together local organizations in a science fair setting, demonstrate cool web ideas together, provide fun hands-on activities, introduce your community to hacking. And most importantly Have Fun!
+								The laboratory develops Websites on Remixing idea that the text is a driving force for today's digital technology and its applications. In the context of informal education the idea is worth investigating and to come to dialogue with the dominant perception of the prevalence of audiovisual information. 
 								</div>
 						</div>
 					</div>
 				</li>
+				<li>
+					<div class="mozH-eventWrap">
+						<div class="mozH-eventThumb">
+							<img src="http://www.hiveathens.org/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_M.jpg"/>
+							<div class="mozH-hiddenLink">
+									Got a 23KW Shock? <a href="./popup-events/tilt-me">Follow here</a>
+							</div>
+						</div>
+						<div class="mozH-eventDescWrap">
+						<h4>Electronics TiltMe<div class="mozH-Type"><b>·</b> Workshop</div></h4>
+								<div class="mozH-text">
+								LEDs, resistors, cables, batteries ... A sensor. Concepts encoded, words lost in hyperstimulation neural network profiles or a simple application of creative online; Take part in workshop designed for the robotixlab Hive, invented the inventor that you hiding inside yourself and learn the basics of an electronic circuit board manufacturing the tiltMe.  
+								</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="mozH-eventWrap">
+						<div class="mozH-eventThumb">
+							<img src="http://www.hiveathens.org/media/k2/items/cache/94d43e327d9303539cb1e2aac7032668_M.jpg"/>
+							<div class="mozH-hiddenLink">
+									Wanna hear me? <a href="./popup-events/reportage">Follow here</a>
+							</div>
+						</div>
+						<div class="mozH-eventDescWrap">
+						<h4>MAKE YOUR OWN REPORTAGE<div class="mozH-Type"><b>·</b> Workshop</div></h4>
+								<div class="mozH-text">
+								We take cameras and microphones and will become reporters for the Hive. With the guidance of experienced journalists, we want to show in the most simple way how information can become news. Through our own previous reportage, narratives and adventures will talk about the basic principles of journalism.   
+								</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="mozH-eventWrap">
+						<div class="mozH-eventThumb">
+							<img src="http://www.hiveathens.org/media/k2/items/cache/ffee2447b152494b43d9816faaea83c8_M.jpg"/>
+							<div class="mozH-hiddenLink">
+									Wanna film me? <a href="./popup-events/comic">Follow here</a>
+							</div>
+						</div>
+						<div class="mozH-eventDescWrap">
+						<h4>COMIC STORYBOARD<div class="mozH-Type"><b>·</b> Workshop</div></h4>
+								<div class="mozH-text">
+								The BIGGEST LIE the WORLD Invent, mix and compile our own narratives through comics! the art of comics is a narrative medium, combining image and why, in a unique way. And as a separate art has this secret codes and techniques.   
+								</div>
+						</div>
+					</div>
+				</li> 
 			</ul>
 			</div>
-			<!-- Do not touch things past this line -->
-			<div class="mozH-social-wrap">
-				<div class="mozH-social">
-					<div class="fb-like" data-href="http://hive.mozillaindia.org" data-width="120" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-					    <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none" data-via="twitterapi">Tweet</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
-			</div>
+			<!-- Social Stuff -->
+<?php
+	require_once("./social.php");
+	echo $social;
+?>
 			<!-- Upto Here -->
 		</div>
 	</div>

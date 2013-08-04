@@ -8,7 +8,6 @@
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
 </head>
 <body>
-<div id="fb-root"></div>
 <?php
 	require_once("./header.php");
 	echo $header;
@@ -17,9 +16,9 @@
 		<div class="mozH-banner">
 			<div class="mozH-bannerTag mozH-fixBanner mozH-fixForOther">
 				<h1>Hive India Team</h1>
-				Get to know our awesome team!
+				Join our awesome army!
 			</div>
-			<img src="./prj.jpg"/>
+			<img src="./team_1.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap">
@@ -28,47 +27,25 @@
 				Our Troops!
 			</div>
 			<div class="mozH-text">
-			<p>Something like info text goes here...</p>
-			<h2 id="h2">The Team</h2>
-			<!-- Stop Laughing! I am trying to get it quicker so using table -->
-			<table class="mozH-team">
-				<tr>
-					<td>
-						<img src="https://secure.gravatar.com/avatar/9e6f83fce2122b5344300b51d01364c5?s=150x150"/>
-					</td>
-					<td>
-						<h4>Meraj Imran, Warangal</h4>
-						<div class="mozH-infoText">Working in sub urbs, he is an awesome webmaker volunteer, facebook was his first thimble.</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<img src="https://secure.gravatar.com/avatar/10662200eb2d45657cec28caef3d309f?s=150x150"/>
-					</td>
-					<td>
-						<h4>Komal Gandhi, Bhopal</h4>
-						<div class="mozH-infoText">Well her first webmake was google.com, oh you know that make? Cool!</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<img src="https://mozillians.org/media/uploads/sorl-cache/bb/91/bb91db072e66710aa7e72d276a31c81e.jpg"/>
-					</td>
-					<td>
-						<h4>Soumya Deb, Bangalore</h4>
-						<div class="mozH-infoText">Well he made all from facebook to twitter, from napster to myspace, these all are inspired by him.</div>
-					</td>
-				</tr>
-			</table>
+				<p>We are not an ordinary team working with team leaders or following the workflows, instead each and every memebr in our community is a leader of his/her field. We work not for profit, neither to raise any charity but we work to help spread the technology and take it to everyone.</p>
+				<p>If you find someone helping people at Hive event jumping from music jam to comic creator with immense energy and coolness then its surely our team member. We help people to build things, let them find the right resources and tools required to excel their creativity</p>
+				<p>Sounds Awesome? Wanna show your awesomess? How about joining us? You can pick any or all fields in which you want to volunteer. Volunteers are awarded cool goodies and much more. To join, follow any of the below:</p>
+				<ul>
+				<li>
+					Request ping back from <a href="./contact"> contact us page</a>.
+				</li>
+				<li>
+					Contact Vinnel <<a href="mailto:vineelreddypindi@gmail.com">vineelreddypindi@gmail.com</a>> or Soumya <<a href="mailto:debloper@gmail.com">debloper@gmail.com</a>>
+				</li>
+				<li>Catch us on irc <a href="irc://irc.mozilla.org/">#mozillahive</a> <i>[awaiting confirmation]</i></li>
+				<li>Tweet us at <a href="https://twitter.com/intent/tweet?original_referer=http://hive.mozillaindia.org/team&text=I want to join hiveIndia&tw_p=tweetbutton&url=http%3A%2F%2Flocalhost%2FmozHive%2Fteam&via=hiveindia">@hiveindia</a></li>
+				</ul>
 			</div>
-			<!-- Do not touch things past this line -->
-			<div class="mozH-social-wrap">
-				<div class="mozH-social">
-					<div class="fb-like" data-href="http://hive.mozillaindia.org" data-width="120" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-					    <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none" data-via="twitterapi">Tweet</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
-			</div>
+			<!-- Social Stuff -->
+<?php
+	require_once("./social.php");
+	echo $social;
+?>
 			<!-- Upto Here -->
 		</div>
 	</div>
