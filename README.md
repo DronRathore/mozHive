@@ -2,12 +2,11 @@ mozHive
 =======
 
 Hive India website
-# Platform
-php, you will soon require mysql too when we get contact us, signup and admin panel done.
+## Platform
+php on apache server, make sure that you have RewriteEngine privilige on your test server
 
-# Adding Stuff
-Well i may be good at designing(you know what i mean by word may be) but i am not that good to create a text, perhaps a catchy one for the website.
-Feel free to update the textuals.
+## Adding Stuff
+You can add stuff that you like. Feel free to update the textuals.
 
-# Design
+## Design
 The Design is not the ultimate one, requires several more task to be performed. Open for Developing.
