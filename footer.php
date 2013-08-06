@@ -1,5 +1,5 @@
 <?php
-$path = "http://localhost/mozHive";
+$path = "http://hive.mozillaindia.org";
 $footer=<<<FOOTER
 <div class="mozH-footer-wrap">
 		<div class="mozH-footer">
