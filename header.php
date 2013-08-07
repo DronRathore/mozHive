@@ -1,5 +1,5 @@
 <?php
-$path = "http:/hive.mozillaindia.org/hive";
+$path = "http:/hive.mozillaindia.org";
 $header = <<<HEADER
 <body>
 	<div class="mozH-header-wrap">
