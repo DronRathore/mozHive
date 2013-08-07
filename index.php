@@ -13,7 +13,7 @@
 	</noscript>
 </head>
 <?php
-	require_once("./header.php");
+	require_once("/header.php");
 	echo $header;
 ?>
 	<div class="throbber" id="throbber">
@@ -40,7 +40,7 @@
 
 			<div class="mozH-lfloat mozH-text">
 			Hive India promotes experiential learning through the interests of young people and the creative use of digital media. The Hive India is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning landscape.
-			<a href="./about" class="green-button">Learn more</a>
+			<a href="/about" class="green-button">Learn more</a>
 			</div>
 		</div>
 		</div>
@@ -106,7 +106,7 @@
 		</div>
 	</div>
 <?php
-	require_once("./footer.php");
+	require_once("/footer.php");
 	echo $footer;
 ?>
 </body>

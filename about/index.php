@@ -3,14 +3,12 @@
 <head>
 	<title>Hive India | About</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-	<link rel="stylesheet" media="all" href="./front-end/splash.css"/>
+	<link rel="stylesheet" media="all" href="/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
 </head>
-<body>
-<div id="fb-root"></div>
 <?php
-	require_once("/header.php");
+	require_once("../header.php");
 	echo $header;
 ?>
 	<div class="mozH-banner-wrap mozH-smallBlock">
@@ -19,7 +17,7 @@
 				<h1>About Hive India</h1>
 				Get to know about the cool community
 			</div>
-			<img src="./8540302236_6ef3a5c9d2_h.jpg"/>
+			<img src="/img/8540302236_6ef3a5c9d2_h.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap">
@@ -51,7 +49,7 @@
 				<h1>Hive India Team</h1>
 				Join our awesome army!
 			</div>
-			<img src="./team_1.jpg"/>
+			<img src="/img/team_1.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap">
@@ -65,7 +63,7 @@
 				<p>Sounds Awesome? Wanna show your awesomess? How about joining us? You can pick any or all fields in which you want to volunteer. Volunteers are awarded cool goodies and much more. To join, follow any of the below:</p>
 				<ul>
 				<li>
-					Request ping back from <a href="./contact"> contact us page</a>.
+					Request ping back from <a href="/contact"> contact us page</a>.
 				</li>
 				<li>
 					Contact Vinnel <<a href="mailto:vineelreddypindi@gmail.com">vineelreddypindi@gmail.com</a>> or Soumya <<a href="mailto:debloper@gmail.com">debloper@gmail.com</a>>
@@ -79,7 +77,7 @@
 	<div class="mozH-centerBodyWrap">
 		<div class="mozH-centerBody">
 			<h3>Contact Hive India</h3>
-			<form action="./contact" method="POST">
+			<form action="/contact" method="POST">
 				<!-- I know you are laughing here, but hey you can replace table with alternate -->
 				<table class="mozH-contactForm">
 					<tr>
@@ -117,9 +115,9 @@
 		Open footer.php, look for class mozH-partner,
 		add an image wrapped in the link, just as the jaaga one.
 	*/
-	require_once("./social.php");
+	require_once("../social.php");
 	echo $social;
-	require_once("/footer.php");
+	require_once("../footer.php");
 	echo $footer;
 ?>
 </body>

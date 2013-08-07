@@ -1,7 +1,7 @@
 <?php
 $path = "";
 $header = <<<HEADER
-<body>
+<body class="mozH-marketplaceStyle">
 	<div class="mozH-header-wrap">
 		<div class="mozH-head">
 			<div class="mozH-lfloat">

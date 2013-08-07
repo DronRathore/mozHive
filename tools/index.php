@@ -3,13 +3,13 @@
 <head>
 	<title>Hive India | Tools</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-	<link rel="stylesheet" media="all" href="./front-end/splash.css"/>
+	<link rel="stylesheet" media="all" href="/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
 </head>
 <body>
 <?php
-	require_once("/header.php");
+	require_once("../header.php");
 	echo $header;
 ?>
 	<div class="mozH-banner-wrap mozH-topMost mozH-smallBlock">
@@ -18,7 +18,7 @@
 				<h1>Tools</h1>
 				Get the right tools
 			</div>
-			<img src="./8539238893_3a47ebc219_c.jpg"/>
+			<img src="/img/8539238893_3a47ebc219_c.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap">
@@ -80,12 +80,6 @@
 				</li>
 			</ul>
 			</div>
-			<!-- Social Stuff -->
-<?php
-	require_once("./social.php");
-	echo $social;
-?>
-			<!-- Upto Here -->
 		</div>
 	</div>
 <?php
@@ -94,7 +88,9 @@
 		Open footer.php, look for class mozH-partner,
 		add an image wrapped in the link, just as the jaaga one.
 	*/
-	require_once("/footer.php");
+	require_once("../social.php");
+	echo $social;
+	require_once("../footer.php");
 	echo $footer;
 ?>
 </body>
