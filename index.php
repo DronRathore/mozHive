@@ -27,8 +27,7 @@
 	<div class="mozH-banner-wrap mozH-topMost">
 		<div class="mozH-banner">
 			<div class="mozH-bannerTag">
-				<h1>Spreading the Technology</h1>
-				We at Mozilla India are spreading and teaching technology to the people.
+				<h1>EXPLORE + CREATE + SHARE</h1>
 			</div>
 			<img src="img/8540327088_252473420e_h.jpg" onload="document.getElementById('throbber').style.display = 'none';"/>
 		</div>
@@ -100,7 +99,7 @@
 			<h2>#makerparty</h2>
 
 			<div class="mozH-lfloat mozH-text">
-			Enjoy, meet with new cool peoples, design or build something awesome together, that what the #makerparty is for.
+			Connect, meet with new cool people, design or build something awesome together, that what the #makerparty is for.
 			</div>
 		</div>
 		</div>
