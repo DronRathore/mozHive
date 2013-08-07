@@ -1,5 +1,5 @@
 <?php
-
+$path = "http://hive.mozillaindia.org";
 $footer=<<<FOOTER
 <div class="mozH-footer-wrap">
 		<div class="mozH-footer">
@@ -26,7 +26,7 @@ $footer=<<<FOOTER
 	<div class="mozH-support-wrap">
 		<div class="mozH-support">
 			<div class="mozH-lfloat" style="margin-top:-22px;">
-				<img src="./makerParty.png" class="mozH-lfloat" width="120"/>
+				<img src="$path/makerParty.png" class="mozH-lfloat" width="120"/>
 				<div class="mozH-lfloat mozH-fT">&copy; All rights reserved<br/>Mozilla India Community</div>
 			</div>
 			<div class="mozH-rfloat">
