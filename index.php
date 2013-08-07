@@ -19,7 +19,7 @@
 	<div class="throbber" id="throbber">
 		<div class="inside">
 			<div class="logo">
-				<img src="./mozHive.jpg"/>
+				<img src="img/mozHive.jpg"/>
 			</div>
 			<div class="rotator"></div>
 		</div>
@@ -30,13 +30,13 @@
 				<h1>Spreading the Technology</h1>
 				We at Mozilla India are spreading and teaching technology to the people.
 			</div>
-			<img src="./8540327088_252473420e_h.jpg" onload="document.getElementById('throbber').style.display = 'none';"/>
+			<img src="img/8540327088_252473420e_h.jpg" onload="document.getElementById('throbber').style.display = 'none';"/>
 		</div>
 	</div>
 	<div class="mozH-block-wrap">
 		<div class="mozH-block">
 			<div class="mozH-innerB">
-			<h2><div class="mozH-topList"><img src="./mozHive.jpg" class="mozH-iLogo"/><div class="mozH-lfloat mozH-fixH2">#Explore</div></div></h2>
+			<h2><div class="mozH-topList"><img src="img/mozHive.jpg" class="mozH-iLogo"/><div class="mozH-lfloat mozH-fixH2">#Explore</div></div></h2>
 
 			<div class="mozH-lfloat mozH-text">
 			Hive India promotes experiential learning through the interests of young people and the creative use of digital media. The Hive India is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning landscape.
@@ -51,7 +51,7 @@
 				<h1>Learn how to develop web</h1>
 				Get to know the technology behind the working of web
 			</div>
-			<img src="./8539238893_3a47ebc219_c.jpg"/>
+			<img src="img/8539238893_3a47ebc219_c.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-block-wrap">
@@ -71,7 +71,7 @@
 				<h1>Connect with awesome people</h1>
 				Get connected with cool people from different places
 			</div>
-			<img src="./IMG_2533.JPG"/>
+			<img src="img/IMG_2533.JPG"/>
 		</div>
 	</div>
 	<div class="mozH-block-wrap">
@@ -91,7 +91,7 @@
 				<h1>Join us on #makerparty</h1>
 				Learn, Design, Develop and Share your Skills
 			</div>
-			<img src="./cards.JPG"/>
+			<img src="img/cards.JPG"/>
 		</div>
 	</div>
 	<div class="mozH-block-wrap">
