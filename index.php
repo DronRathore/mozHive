@@ -99,7 +99,7 @@
 			<h2>#makerparty</h2>
 
 			<div class="mozH-lfloat mozH-text">
-			Connect, meet with new cool people, design or build something awesome together, that what the #makerparty is for.
+			Connect with new cool people, design or build something awesome together, that what the #makerparty is for.
 			</div>
 		</div>
 		</div>

@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 	<link rel="stylesheet" media="all" href="/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
-	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
+	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people."/>
 </head>
 <?php
 	require_once("../header.php");
@@ -26,10 +26,9 @@
 				Welcome to Hive India
 			</div>
 			<div class="mozH-text">
-			<p>Lorem ispum doner un pos . . I can't think of anything right now, leaving this part on you. :) But you can provide me the para's t insert here.
+			<p> 
 			</p>
-			<p>
-			We promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web. Strengthening us is an army of cool and passionate web makers who thrives to take this mission forward.
+			<p>Hive India is a network of organizations that share resources to advance learning in India. Hive India promotes experiential learning through the interests of young people and the creative use of digital media. The Hive India is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning  landscape. Hive India is a initiative of Mozilla India regional community, a community that is part of global community of Mozilla.
 			</p>
 			</div>
 			<!-- Do not touch things past this line -->
@@ -60,13 +59,13 @@
 			<div class="mozH-text">
 				<p>We are not an ordinary team working with team leaders or following the workflows, instead each and every memebr in our community is a leader of his/her field. We work not for profit, neither to raise any charity but we work to help spread the technology and take it to everyone.</p>
 				<p>If you find someone helping people at Hive event jumping from music jam to comic creator with immense energy and coolness then its surely our team member. We help people to build things, let them find the right resources and tools required to excel their creativity</p>
-				<p>Sounds Awesome? Wanna show your awesomess? How about joining us? You can pick any or all fields in which you want to volunteer. Volunteers are awarded cool goodies and much more. To join, follow any of the below:</p>
+				<p>Sounds Awesome? Wanna show your awesomess? How about joining us? You can pick any or all fields in which you want to volunteer. Volunteers are awarded cool goodies and much more. To join or learn more about how you can be part of Hive India, please visit: events section or contact us at:</p>
 				<ul>
 				<li>
 					Request ping back from <a href="/contact"> contact us page</a>.
 				</li>
 				<li>
-					Contact Vinnel <<a href="mailto:vineelreddypindi@gmail.com">vineelreddypindi@gmail.com</a>> or Soumya <<a href="mailto:debloper@gmail.com">debloper@gmail.com</a>>
+					Contact events At mozillaindia DOT org
 				</li>
 				<li>Catch us on irc <a href="irc://irc.mozilla.org/">#mozillahive</a> <i>[awaiting confirmation]</i></li>
 				<li>Tweet us at <a href="https://twitter.com/intent/tweet?original_referer=http://hive.mozillaindia.org/team&text=I want to join hiveIndia&tw_p=tweetbutton&url=http%3A%2F%2Flocalhost%2FmozHive%2Fteam&via=hiveindia">@hiveindia</a></li>
