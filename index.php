@@ -79,7 +79,7 @@
 			<h2>#connect</h2>
 
 			<div class="mozH-lfloat mozH-text">
-			Connect with new cool peoples from various part of the country and the world, work together, have fun. <a href="./team">Learn more</a>
+			Connect with new cool peoples from various part of the country and the world, work together, have fun.At Maker Party 2013 (Pop-Up event) we will be hosting a series of workshops that encourage learning through experimentation, construction and creation. If you have an idea for a workshop or interested in facilitating with one of the sessions at Maker Party 2013, <a href="./team">talk to us!</a>
 			</div>
 		</div>
 		</div>
