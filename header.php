@@ -11,7 +11,6 @@ $header = <<<HEADER
 			</div>
 			<div class="mozH-rfloat">
 				<ul class="mozH-noStyle">
-					<li><a href="$path" class="mozH-topL">HOME</a></li>
 					<li><a href="$path/about" class="mozH-topL">HIVE INDIA</a></li>
 					<li><a href="$path/team" class="mozH-topL">THE TEAM</a></li>
 					<li><a href="$path/popup-events" class="mozH-topL">POP-UP EVENT</a></li>

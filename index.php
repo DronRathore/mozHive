@@ -6,18 +6,31 @@
 	<link rel="stylesheet" media="all" href="./front-end/splash.css"/>
 	<meta http-equiv="keywords" content="Hive India, Hive, mozhive, Mozilla India, makerparty, web maker, awesome"/>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
+	<noscript>
+		<style>
+		.throbber{display: none;}
+		</style>
+	</noscript>
 </head>
 <?php
 	require_once("./header.php");
 	echo $header;
 ?>
+	<div class="throbber" id="throbber">
+		<div class="inside">
+			<div class="logo">
+				<img src="./mozHive.jpg"/>
+			</div>
+			<div class="rotator"></div>
+		</div>
+	</div>
 	<div class="mozH-banner-wrap mozH-topMost">
 		<div class="mozH-banner">
 			<div class="mozH-bannerTag">
 				<h1>Spreading the Technology</h1>
 				We at Mozilla India are spreading and teaching technology to the people.
 			</div>
-			<img src="./8540327088_252473420e_h.jpg"/>
+			<img src="./8540327088_252473420e_h.jpg" onload="document.getElementById('throbber').style.display = 'none';"/>
 		</div>
 	</div>
 	<div class="mozH-block-wrap">
