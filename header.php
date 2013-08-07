@@ -5,7 +5,7 @@ $header = <<<HEADER
 	<div class="mozH-header-wrap">
 		<div class="mozH-head">
 			<div class="mozH-lfloat">
-				<a href="$path"><div class="mozH-logo">
+				<a href="/"><div class="mozH-logo">
 				hive<label class="text">INDIA</label>
 				</div></a>
 			</div>

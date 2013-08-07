@@ -13,7 +13,7 @@
 	</noscript>
 </head>
 <?php
-	require_once("/header.php");
+	require_once("./header.php");
 	echo $header;
 ?>
 	<div class="throbber" id="throbber">
@@ -106,7 +106,7 @@
 		</div>
 	</div>
 <?php
-	require_once("/footer.php");
+	require_once("./footer.php");
 	echo $footer;
 ?>
 </body>
