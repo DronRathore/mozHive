@@ -1,9 +1,7 @@
 RewriteEngine ON
 RewriteRule ^about$	about.php [NC]
-RewriteRule ^team$	team.php [NC]
 RewriteRule ^tools$	tools.php [NC]
-RewriteRule ^contact$	contact.php [NC]
-RewriteRule ^popup-events$	events.php [NC]
+RewriteRule ^events$	events.php [NC]
 RewriteRule ^popup-events/music-jam$	music-jam.php [NC]
 RewriteRule ^popup-events/robotikes-missions$	robotikes.php [NC]
 RewriteRule ^popup-events/webmaker$	webmaker.php [NC]
