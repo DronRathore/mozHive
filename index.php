@@ -27,7 +27,7 @@
 	<div class="mozH-banner-wrap mozH-topMost">
 		<div class="mozH-banner">
 			<div class="mozH-bannerTag">
-				<h1>EXPLORE + CREATE + SHARE</h1>
+				<h1 style="font-size: 34px;">EXPLORE + CREATE + SHARE</h1>
 			</div>
 			<img src="img/8540327088_252473420e_h.jpg" onload="document.getElementById('throbber').style.display = 'none';"/>
 		</div>
@@ -47,8 +47,8 @@
 	<div class="mozH-banner-wrap mozH-smallBlock">
 		<div class="mozH-banner">
 		<div class="mozH-bannerTag mozH-fixBanner">
-				<h1>Learn how to develop web</h1>
-				Get to know the technology behind the working of web
+				<h1>Learn something, Create something</h1>
+				 Get your engines rolling for creating awesome things on the go
 			</div>
 			<img src="img/8539238893_3a47ebc219_c.jpg"/>
 		</div>
@@ -59,7 +59,7 @@
 			<h2>#Create</h2>
 
 			<div class="mozH-lfloat mozH-text">
-			Learn the coolest new web technologies, from creating a web page to, creating a circuit board to, creating a movie to making music. You need not to be an expert, even if you have no idea what all these things sounds to you we will let you know and will help you in developing some cool stuff. Either work in a team or as an individual this is purely your choice. <a href="./popup-events">Learn More</a>
+			Learn the coolest new technologies, from creating a web page to creating a electronic circuit, to making a video, to creating music. You need not to  be an expert, even if you have no idea what all these things sounds to  you we will let you know and will help you in creating some cool  stuff. Either work in a team or as an individual this is purely your  choice. <a href="./events">Learn More</a>
 			</div>
 		</div>
 		</div>
@@ -68,7 +68,7 @@
 		<div class="mozH-banner">
 		<div class="mozH-bannerTag mozH-fixBanner">
 				<h1>Connect with awesome people</h1>
-				Get connected with cool people from different places
+				Share your skills to double the awesomeness
 			</div>
 			<img src="img/IMG_2533.JPG"/>
 		</div>
@@ -79,7 +79,7 @@
 			<h2>#share</h2>
 
 			<div class="mozH-lfloat mozH-text">
-			Connect with new cool peoples from various part of the country and the world, work together, have fun. <a href="./team">Learn more</a>
+			Connect with educators from museums, libraries and after-school programs to create educational programs in which young people develop skills through the prism of discovery, creation and  collaboration. Connect with new cool people from various parts of the country and the world, work together, have fun. <a href="./team">Learn more</a>
 			</div>
 		</div>
 		</div>
@@ -87,8 +87,8 @@
 	<div class="mozH-banner-wrap mozH-smallFix">
 		<div class="mozH-banner">
 		<div class="mozH-bannerTag mozH-fixBanner">
-				<h1>Join us on #makerparty</h1>
-				Learn, Design, Develop and Share your Skills
+				<h1>Join us at #makerparty</h1>
+				Learn, Design or Build something awesome together
 			</div>
 			<img src="img/cards.JPG"/>
 		</div>
@@ -99,7 +99,7 @@
 			<h2>#makerparty</h2>
 
 			<div class="mozH-lfloat mozH-text">
-			Connect with new cool people, design or build something awesome together, that what the #makerparty is for.
+			Maker Party 2013 will be happening on <b>Saturday, 7th September</b> at <em>Jagaa.in, Bangalore</em>. We will be hosting a series of workshops that encourage learning through experimentation, construction and creation. If you have an idea for a workshop or interested in facilitating with one of the sessions at Maker Party 2013, <a href="./events">read here</a>.
 			</div>
 		</div>
 		</div>
