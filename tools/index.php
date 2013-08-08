@@ -3,7 +3,7 @@
 <head>
 	<title>Hive India | Tools</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-	<link rel="stylesheet" media="all" href="/front-end/splash.css"/>
+	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
 </head>
@@ -11,6 +11,8 @@
 <?php
 	require_once("../header.php");
 	echo $header;
+	require_once("../widget.php");
+	echo $widget;
 ?>
 	<div class="mozH-banner-wrap mozH-topMost mozH-smallBlock">
 		<div class="mozH-banner">
@@ -18,7 +20,7 @@
 				<h1>Tools</h1>
 				Get the right tools
 			</div>
-			<img src="/img/8539238893_3a47ebc219_c.jpg"/>
+			<img src="http://hive.mozillaindia.org/img/8539238893_3a47ebc219_c.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap">

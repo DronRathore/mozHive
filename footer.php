@@ -15,7 +15,8 @@ $footer=<<<FOOTER
 			</div>
 			<div class="mozH-rfloat mozH-sponsor">
 			<h3>Signup for updates</h3>
-			<form action="./Signup" id="signup">
+			<script src="http://hive.mozillaindia.org/front-end/squash.js"></script>
+			<form action="http://hive.mozillaindia.org/contact/s.php" id="signup" method="POST" onsubmit="return doSignup(this)">
 				<input type="text" name="name" placeholder="Full Name" aria-label="Full Name"/>
 				<input type="text" name="email" placeholder="Email Address" aria-label="Email Address"/>
 				<input type="submit" value="Signup"/>
@@ -26,8 +27,9 @@ $footer=<<<FOOTER
 	<div class="mozH-support-wrap">
 		<div class="mozH-support">
 			<div class="mozH-lfloat" style="margin-top:-22px;">
-				<img src="$path/makerParty.png" class="mozH-lfloat" width="120"/>
+				<a href="http://geekved.com/hive/events#makerparty"><img src="$path/makerParty.png" class="mozH-lfloat mozH-rotate" width="120"/></a>
 				<div class="mozH-lfloat mozH-fT">&copy; All rights reserved<br/>Mozilla India Community</div>
+				<div class="mozH-lfloat" style="padding: 18px 4px;"><img src="$path/icontexto-inside-facebook.png" width="60"/><img src="$path/icontexto-inside-twitter.png" width="60"/></div>
 			</div>
 			<div class="mozH-rfloat">
 				<a href="http://mozilla.org/"><img src="http://mozorg.cdn.mozilla.net/media/img/home/title-wordmark.png" width="120" border="0"/></a>

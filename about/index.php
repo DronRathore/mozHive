@@ -3,14 +3,14 @@
 <head>
 	<title>Hive India | About</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-	<link rel="stylesheet" media="all" href="/front-end/splash.css"/>
+	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people."/>
 </head>
 <?php
 	require_once("../header.php");
 	echo $header;
-	require_once("./widget.php");
+	require_once("../widget.php");
 	echo $widget;
 ?>
 	<div class="mozH-banner-wrap mozH-smallBlock">
@@ -19,7 +19,7 @@
 				<h1>About Hive India</h1>
 				Get to know about the cool community
 			</div>
-			<img src="/img/8540302236_6ef3a5c9d2_h.jpg"/>
+			<img src="http://hive.mozillaindia.org/img/8540302236_6ef3a5c9d2_h.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap" style="margin: 0 auto;">
@@ -75,7 +75,7 @@
 				</li>
 				</ul>
 				<p>
-				<b>Sounds awesome?</b> How about becoming a partner of us and help us in this mission. <a href="../contact">Contact us</a> to become a partner or <a href="./team">follow here</a> to become a volunteer.
+				<b>Sounds awesome?</b> How about becoming a partner of us and help us in this mission. <a href="http://hive.mozillaindia.org/contact">Contact us</a> to become a partner or <a href="http://hive.mozillaindia.org/team">follow here</a> to become a volunteer.
 				</p>
 			</div>
 			<!-- Do not touch things past this line

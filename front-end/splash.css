@@ -425,7 +425,7 @@
 	}
 	.mozH-content-wrap{
 		padding:20px;
-		margin-left: 10px;
+		margin: 0 auto;
 		width: 970px;
 	}
 	.mozH-heading{
@@ -559,7 +559,7 @@
 		margin: 0 auto;
 	}
 	.mozH-bigimage{
-		background: url("../blurTeam.jpg") top center;
+		background: url("../img/blurTeam.jpg") top center;
 		background-attachment:fixed;
 	}
 	.mozH-iLogo{

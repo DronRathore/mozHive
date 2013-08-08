@@ -3,7 +3,7 @@
 <head>
 	<title>Hive India | Mozilla India</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-	<link rel="stylesheet" media="all" href="./front-end/splash.css"/>
+	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<meta http-equiv="keywords" content="Hive India, Hive, mozhive, Mozilla India, makerparty, web maker, awesome"/>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
 	<noscript>
@@ -101,7 +101,7 @@
 			<h2>#makerparty</h2>
 
 			<div class="mozH-lfloat mozH-text">
-			Maker Party 2013 will be happening on <b>Saturday, 7th September</b> at <em>Jagaa.in, Bangalore</em>. We will be hosting a series of workshops that encourage learning through experimentation, construction and creation. If you have an idea for a workshop or interested in facilitating with one of the sessions at Maker Party 2013, <a href="./events">read here</a>.
+			Maker Party 2013 will be happening on <b>Saturday, 7th September</b> at <em>Jagaa.in, Bangalore</em>. We will be hosting a series of workshops that encourage learning through experimentation, construction and creation. If you have an idea for a workshop or interested in facilitating with one of the sessions at Maker Party 2013, <a href="./events#makerparty">read here</a>.
 			</div>
 		</div>
 		</div>
