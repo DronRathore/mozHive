@@ -15,6 +15,8 @@
 <?php
 	require_once("./header.php");
 	echo $header;
+	require_once("./widget.php");
+	echo $widget;
 ?>
 	<div class="throbber" id="throbber">
 		<div class="inside">
