@@ -3,13 +3,12 @@
 <head>
 	<title>Hive India | PopUp Events</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-	<link rel="stylesheet" media="all" href="./front-end/splash.css"/>
+	<link rel="stylesheet" media="all" href="/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
 </head>
-<body class="mozH-marketplaceStyle">
 <?php
-	require_once("/header.php");
+	require_once("../header.php");
 	echo $header;
 ?>
 	<div class="mozH-banner-wrap mozH-topMost">
@@ -18,7 +17,7 @@
 				<h1>Pop-Up Events</h1>
 				Events that are awesome and made for everyone!
 			</div>
-			<img src="./8540340754_31b3ac8161_b.jpg"/>
+			<img src="/img/8540340754_31b3ac8161_b.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap">
@@ -34,7 +33,7 @@
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/ada9a09acea936d776a6f55c82778c43_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									Sounds Awesome? <a href="./popup-events/music-jam">Jack in here</a>
+									Sounds Awesome? <a href="/events/music-jam">Jack in here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
@@ -52,7 +51,7 @@
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/e0a70f72bdae9885bfc32d7cd19a26a1_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									More cool info, <a href="./popup-events/robotikes-missions">follow here</a>
+									More cool info, <a href="/events/robotikes-missions">follow here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
@@ -68,7 +67,7 @@
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/4965657af186b9092c7a96976ffe881c_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									Thrilled? <a href="./popup-events/webmaker">Follow here</a>
+									Thrilled? <a href="/events/webmaker">Follow here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
@@ -84,7 +83,7 @@
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									Got a 23KW Shock? <a href="./popup-events/tilt-me">Follow here</a>
+									Got a 23KW Shock? <a href="/events/tilt-me">Follow here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
@@ -100,7 +99,7 @@
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/94d43e327d9303539cb1e2aac7032668_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									Wanna hear me? <a href="./popup-events/reportage">Follow here</a>
+									Wanna hear me? <a href="/events/reportage">Follow here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
@@ -116,7 +115,7 @@
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/ffee2447b152494b43d9816faaea83c8_M.jpg"/>
 							<div class="mozH-hiddenLink">
-									Wanna film me? <a href="./popup-events/comic">Follow here</a>
+									Wanna film me? <a href="/events/comic">Follow here</a>
 							</div>
 						</div>
 						<div class="mozH-eventDescWrap">
@@ -130,10 +129,6 @@
 			</ul>
 			</div>
 			<!-- Social Stuff -->
-<?php
-	require_once("./social.php");
-	echo $social;
-?>
 			<!-- Upto Here -->
 		</div>
 	</div>
@@ -143,7 +138,9 @@
 		Open footer.php, look for class mozH-partner,
 		add an image wrapped in the link, just as the jaaga one.
 	*/
-	require_once("/footer.php");
+	require_once("../social.php");
+	echo $social;
+	require_once("../footer.php");
 	echo $footer;
 ?>
 </body>
