@@ -27,7 +27,7 @@ $footer=<<<FOOTER
 	<div class="mozH-support-wrap">
 		<div class="mozH-support">
 			<div class="mozH-lfloat" style="margin-top:-22px;">
-				<a href="http://geekved.com/hive/events#makerparty"><img src="$path/makerParty.png" class="mozH-lfloat mozH-rotate" width="120"/></a>
+				<a href="http://hive.mozillaindia.org/events#makerparty"><img src="$path/makerParty.png" class="mozH-lfloat mozH-rotate" width="120"/></a>
 				<div class="mozH-lfloat mozH-fT">&copy; All rights reserved<br/>Mozilla India Community</div>
 				<div class="mozH-lfloat" style="padding: 18px 4px;"><img src="$path/icontexto-inside-facebook.png" width="60"/><img src="$path/icontexto-inside-twitter.png" width="60"/></div>
 			</div>
