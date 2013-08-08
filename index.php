@@ -6,6 +6,10 @@
 	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<meta http-equiv="keywords" content="Hive India, Hive, mozhive, Mozilla India, makerparty, web maker, awesome"/>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
+	<?php
+		require_once("./og.php");
+		echo $og;
+	?>
 	<noscript>
 		<style>
 		.throbber{display: none;}

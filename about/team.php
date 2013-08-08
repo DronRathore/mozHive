@@ -6,6 +6,10 @@
 	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
+	<?php
+		require_once("../og.php");
+		echo $og;
+	?>
 </head>
 <body>
 <?php
@@ -31,13 +35,13 @@
 			<div class="mozH-text">
 				<p>We are not an ordinary team working with team leaders or following the workflows, instead each and every memebr in our community is a leader of his/her field. We work not for profit, neither to raise any charity but we work to help spread the technology and take it to everyone.</p>
 				<p>If you find someone helping people at Hive event jumping from music jam to comic creator with immense energy and coolness then its surely our team member. We help people to build things, let them find the right resources and tools required to excel their creativity</p>
-				<p>Sounds Awesome? Wanna show your awesomess? How about joining us? You can pick any or all fields in which you want to volunteer. Volunteers are awarded cool goodies and much more. To join, follow any of the below:</p>
+				<p>Sounds exciting? To join or learn more about how you can be part of Hive India, please visit <a href="/events">here</a></p>
 				<ul>
 				<li>
 					Request ping back from <a href="http://hive.mozillaindia.org/contact"> contact us page</a>.
 				</li>
 				<li>
-					Contact Vinnel <<a href="mailto:events@mozillaindia.org">events@mozillaindia.org</a>>
+					Contact Vinnel at <<a href="mailto:events@mozillaindia.org">events@mozillaindia.org</a>>
 				</li>
 				<li>Catch us on irc <a href="irc://irc.mozilla.org/">#mozillahive</a> <i>[awaiting confirmation]</i></li>
 				<li>Tweet us at <a href="https://twitter.com/intent/tweet?original_referer=http://hive.mozillaindia.org/team&text=I want to join hiveIndia&tw_p=tweetbutton&url=http%3A%2F%2Flocalhost%2FmozHive%2Fteam&via=hiveindia">@hiveindia</a></li>

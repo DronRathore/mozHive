@@ -6,6 +6,10 @@
 	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<script src="http://hive.mozillaindia.org/front-end/squash.js"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
+	<?php
+		require_once("../og.php");
+		echo $og;
+	?>
 </head>
 <body class="mozH-bigimage">
 <?php
