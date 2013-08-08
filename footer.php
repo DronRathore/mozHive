@@ -1,5 +1,5 @@
 <?php
-$path = "http://hive.mozillaindia.org";
+$path = "http://hive.mozillaindia.org/img";
 $footer=<<<FOOTER
 <div class="mozH-footer-wrap">
 		<div class="mozH-footer">
