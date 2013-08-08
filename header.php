@@ -1,5 +1,5 @@
 <?php
-$path = "";
+$path = "http://hive.mozillaindia.org";
 $header = <<<HEADER
 <body class="mozH-marketplaceStyle">
 	<div class="mozH-header-wrap">
@@ -14,6 +14,7 @@ $header = <<<HEADER
 					<li><a href="$path/events" class="mozH-topL">EVENTS</a></li>
 					<li><a href="$path/tools" class="mozH-topL">TOOLS</a></li>
 					<li><a href="$path/about" class="mozH-topL">ABOUT</a></li>
+					<li><a href="$path/contact" class="mozH-topL">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>

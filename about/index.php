@@ -3,13 +3,15 @@
 <head>
 	<title>Hive India | About</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-	<link rel="stylesheet" media="all" href="/front-end/splash.css"/>
+	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people."/>
 </head>
 <?php
 	require_once("../header.php");
 	echo $header;
+	require_once("../widget.php");
+	echo $widget;
 ?>
 	<div class="mozH-banner-wrap mozH-smallBlock">
 		<div class="mozH-banner">
@@ -17,95 +19,72 @@
 				<h1>About Hive India</h1>
 				Get to know about the cool community
 			</div>
-			<img src="/img/8540302236_6ef3a5c9d2_h.jpg"/>
+			<img src="http://hive.mozillaindia.org/img/8540302236_6ef3a5c9d2_h.jpg"/>
 		</div>
 	</div>
-	<div class="mozH-content-wrap">
+	<div class="mozH-content-wrap" style="margin: 0 auto;">
 		<div class="mozH-content">
 			<div class="mozH-heading">
 				Welcome to Hive India
 			</div>
-			<div class="mozH-text">
+			<div class="mozH-text" style="font-weight:normal;">
 			<p> 
 			</p>
 			<p>Hive India is a network of organizations that share resources to advance learning in India. Hive India promotes experiential learning through the interests of young people and the creative use of digital media. The Hive India is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning  landscape. Hive India is a initiative of Mozilla India regional community, a community that is part of global community of Mozilla.
 			</p>
-			</div>
-			<!-- Do not touch things past this line -->
-			<div class="mozH-social-wrap">
-				<div class="mozH-social">
-					<div class="fb-like" data-href="http://hive.mozillaindia.org" data-width="120" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-					    <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none" data-via="twitterapi">Tweet</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
-			</div>
-			<!-- Upto Here -->
-		</div>
-	</div>
-	<div class="mozH-banner-wrap mozH-smallBlock">
-		<div class="mozH-banner">
-			<div class="mozH-bannerTag mozH-fixBanner mozH-fixForOther">
-				<h1>Hive India Team</h1>
-				Join our awesome army!
-			</div>
-			<img src="/img/team_1.jpg"/>
-		</div>
-	</div>
-	<div class="mozH-content-wrap">
-		<div class="mozH-content">
-			<div class="mozH-heading">
-				Our Troops!
-			</div>
-			<div class="mozH-text">
-				<p>We are not an ordinary team working with team leaders or following the workflows, instead each and every memebr in our community is a leader of his/her field. We work not for profit, neither to raise any charity but we work to help spread the technology and take it to everyone.</p>
-				<p>If you find someone helping people at Hive event jumping from music jam to comic creator with immense energy and coolness then its surely our team member. We help people to build things, let them find the right resources and tools required to excel their creativity</p>
-				<p>Sounds Awesome? Wanna show your awesomess? How about joining us? You can pick any or all fields in which you want to volunteer. Volunteers are awarded cool goodies and much more. To join or learn more about how you can be part of Hive India, please visit: events section or contact us at:</p>
+			<p>
+			   Hive India is a initiative of Mozilla India regional community, a community that is part of global community of Mozilla.
+			</p>
+			<h2 style="margin:0;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Our Core Beliefs</h2>
+				<ul>
+					<li>
+					School is not the sole provider in a community’s educational system
+					</li>
+					<li>
+					Youth need to be both sophisticated consumers and active producers of digital media
+					</li>
+					<li>
+					Learning should be driven by youth’s interests
+					</li>
+					<li>
+					Digital media and technology are the glue and amplifier for connected learning experiences
+					</li>
+					<li>
+					Out-of-school time spaces are fertile grounds for learning innovation
+					</li>
+					<li style="font-weight:bold;">Organizations must collaborate to thrive</li>
+				</ul>
+				<p>
+				Hive India operates as a learning lab, where members network with each other, share best practices and pedagogies, learn about and play with new technologies, participate in events, and most importantly, collaborate to create learning opportunities for Indian youth. As part of  the network, members have access to the following support and services:
+				</p>
 				<ul>
 				<li>
-					Request ping back from <a href="/contact"> contact us page</a>.
+				    Chance to participate in events in and beyond India that illustrate the work of network members and promote Connected Learning principles,  digital literacy AND webmaking skills
 				</li>
 				<li>
-					Contact events At mozillaindia DOT org
+				Opportunity to promote new, programs and events through Hive India  communications channels (blog, Facebook, Twitter, etc.), as well as  youth and volunteer recruitment
 				</li>
-				<li>Catch us on irc <a href="irc://irc.mozilla.org/">#mozillahive</a> <i>[awaiting confirmation]</i></li>
-				<li>Tweet us at <a href="https://twitter.com/intent/tweet?original_referer=http://hive.mozillaindia.org/team&text=I want to join hiveIndia&tw_p=tweetbutton&url=http%3A%2F%2Flocalhost%2FmozHive%2Fteam&via=hiveindia">@hiveindia</a></li>
+				<li>
+				A knowledge exchange for members to share models, ideas, content, tools and best-practices with each other
+				</li>
+				<li>
+				Professional Development sessions that develop staff through network peer mentoring, modeling and sharing
+				</li>
+				<li>
+				Monthly, in-person meet-ups and conference calls that allow for members to share program updates, best practices, and learn about new opportunities
+				</li>
 				</ul>
+				<p>
+				<b>Sounds awesome?</b> How about becoming a partner of us and help us in this mission. <a href="http://hive.mozillaindia.org/contact">Contact us</a> to become a partner or <a href="http://hive.mozillaindia.org/team">follow here</a> to become a volunteer.
+				</p>
 			</div>
-		</div>
-	</div>
-	<div class="mozH-centerBodyWrap">
-		<div class="mozH-centerBody">
-			<h3>Contact Hive India</h3>
-			<form action="/contact" method="POST">
-				<!-- I know you are laughing here, but hey you can replace table with alternate -->
-				<table class="mozH-contactForm">
-					<tr>
-						<td>
-							Full Name
-						</td>
-						<td>
-							<input type="text" name="name" autofocus placeholder="Your Full Name" aria-label="Your Full Name"/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Email
-						</td>
-						<td>
-							<input type="email" name="email" required validate placeholder="Your Email Address" aria-label="Your Email Address"/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Your Message
-						</td>
-						<td>
-							<textarea name="message" required placeholder="A brief message you want to send us" aria-label="A brief message you want to send us"></textarea>
-						</td>
-					</tr>
-				</table>
-				<center><input type="submit" class="mozH-submitButton" value="Ping us"/></center>
-			</form>
+			<!-- Do not touch things past this line
+			<?php
+					require_once("../social.php");
+					echo $social;
+			?>
+			
+			<!-- Upto Here -->
 		</div>
 	</div>
 <?php
@@ -114,8 +93,6 @@
 		Open footer.php, look for class mozH-partner,
 		add an image wrapped in the link, just as the jaaga one.
 	*/
-	require_once("../social.php");
-	echo $social;
 	require_once("../footer.php");
 	echo $footer;
 ?>

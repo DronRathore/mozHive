@@ -295,7 +295,7 @@
 	.mozH-support .mozH-rfloat{
 		margin-top: 30px;
 	}
-	.mozH-support .mozH-lfloat:hover img{
+	.mozH-support .mozH-lfloat:hover .mozH-rotate{
 		opacity:1;
 		transform: scale(1.1) rotateY(360deg);
 		-ms-transform: scale(1.1) rotateY(360deg);
@@ -314,7 +314,7 @@
 		transition-duration: 600ms;
 		
 	}
-	.mozH-support .mozH-lfloat img{
+	.mozH-support .mozH-lfloat .mozH-rotate{
 		opacity: 0.8;
 		transform: scale(1) rotateY(0deg);
 		-ms-transform: scale(1) rotateY(0deg);
@@ -425,7 +425,7 @@
 	}
 	.mozH-content-wrap{
 		padding:20px;
-		margin-left: 10px;
+		margin: 0 auto;
 		width: 970px;
 	}
 	.mozH-heading{
@@ -559,7 +559,7 @@
 		margin: 0 auto;
 	}
 	.mozH-bigimage{
-		background: url("../blurTeam.jpg") top center;
+		background: url("../img/blurTeam.jpg") top center;
 		background-attachment:fixed;
 	}
 	.mozH-iLogo{
@@ -627,4 +627,57 @@
 	.mozH-submitButton:active{
 		background: #eee;
 		border: 1px solid #aaa;
+	}
+	.mozH-text b{font-weight:bold;}
+	.mozH-widget-wrap{position:fixed;left: -3px;top: 65%;z-index:1000;width: 80px;padding: 20px 0;}
+	.mozH-widget-wrap:hover .mozH-widget{
+		margin-left:0;
+		-moz-transition-property: margin;
+		-o-transition-property: margin;
+		-webkit-transition-property: margin;
+		-ms-transition-property: margin;
+		transition-property: margin;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+	}
+	.mozH-widget{width: 53px;margin-left: -12px;
+	-moz-transition-property: margin;
+		-o-transition-property: margin;
+		-webkit-transition-property: margin;
+		-ms-transition-property: margin;
+		transition-property: margin;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+	height:130px;padding:5px 0;padding-left:12px;padding-bottom:10px;background: rgba(0, 143, 255, 0.8);border:1px solid #008fff;border-left:0;border-radius:3px;box-shadow:0 0 3px rgba(0, 0, 0, 0.5);}
+	.mozH-widget img{width:40px;padding-top:5px;
+		-moz-transition-property: transform;
+		-o-transition-property: transform;
+		-webkit-transition-property:transform;
+		-ms-transition-property:transform;
+		transition-property:transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+	}
+	.mozH-widget a{padding:5px;}
+	.mozH-widget a:hover img{
+		transform: scale(1.1) translateX(4px);
+		-moz-transition-property: transform;
+		-o-transition-property: transform;
+		-webkit-transition-property:transform;
+		-ms-transition-property:transform;
+		transition-property:transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
 	}
