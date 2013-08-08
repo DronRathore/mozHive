@@ -468,7 +468,7 @@
 		 margin-top:-33px;
 		 -moz-transform:scale(1.1);
 		 transform:scale(1.1);
-		 -o-transform:scale(1.1);
+text-shadow: 0 0 2px #000;		 -o-transform:scale(1.1);
 		 -ms-transform:scale(1.1);
 		 -webkit-transform:scale(1.1);
 		-moz-transition-property: margin, transform;

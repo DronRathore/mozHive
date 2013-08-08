@@ -1,24 +1,28 @@
-  <!doctype html>
+ <!doctype html>
 <html lang="en">
 <head>
-	<title>Hive India | TiltMe</title>
+	<title>Hive India | Reportage</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
+	<?php
+		require_once("../../og.php");
+		echo $og;
+	?>
 </head>
 <body>
 <?php
-	require_once("../header.php");
+	require_once("../../header.php");
 	echo $header;
-	require_once("../widget.php");
+	require_once("../../widget.php");
 	echo $widget;
 ?>
 	<div class="mozH-banner-wrap mozH-topMost mozH-smallBlock">
 		<div class="mozH-banner">
 			<div class="mozH-bannerTag mozH-fixBanner">
-				<h1>Projects | TiltMe</h1>
-				Resistor + Capacitor = Voltage Regulator
+				<h1>Projects | Reportage</h1>
+				Hi all i am Mozilla!
 			</div>
 			<img src="http://hive.mozillaindia.org/img/8540340754_31b3ac8161_b.jpg"/>
 		</div>
@@ -26,17 +30,15 @@
 	<div class="mozH-content-wrap">
 		<div class="mozH-content">
 			<div class="mozH-heading">
-				Electronics TiltMe
+				Reportage
 			</div>
 			<div class="mozH-text">
-			<p><img class="mozH-image" src="http://www.hiveathens.org/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_M.jpg"/>
-			LEDs, resistors, cables, batteries ... A sensor. Concepts encoded, words lost in kyklwtikis hyperstimulation neural network profiles or a simple creative electronic application;</p>
-			<p>Take part in a workshop designed for the robotixlab Hive, invented the inventor that you hiding inside yourself and learn the basics of an electronic circuit making the tiltMe. The tiltMe is a DIY night light to light enough not to press a switch. Improvised creatively and modified the building making it unique.</p>
-			<p>This workshop contains all the necessary parts, tools and instructions to construct and modify the tiltMe. Leaving you will get with you making that cake!</p>
+			<p><img class="mozH-image" src="http://www.hiveathens.org/media/k2/items/cache/94d43e327d9303539cb1e2aac7032668_M.jpg"/>
+			We take cameras and microphones and will become reporters for the Hive.</p><p> With the guidance of experienced journalists, we want to show in the most simple way how information can become news. Through our own previous reportage, narratives and adventures will talk about the basic principles of journalism and all the ingredients that make a reportage to discuss!</p>
 			</div>
 			<!-- Social Stuff -->
 <?php
-	require_once("../social.php");
+	require_once("../../social.php");
 	echo $social;
 ?>
 			<!-- Upto Here -->
@@ -48,7 +50,7 @@
 		Open footer.php, look for class mozH-partner,
 		add an image wrapped in the link, just as the jaaga one.
 	*/
-	require_once("../footer.php");
+	require_once("../../footer.php");
 	echo $footer;
 ?>
 
