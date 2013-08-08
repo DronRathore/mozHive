@@ -36,7 +36,7 @@
 			</div>
 			<!-- Social Stuff -->
 <?php
-	require_once("./social.php");
+	require_once("../social.php");
 	echo $social;
 ?>
 			<!-- Upto Here -->
@@ -48,7 +48,7 @@
 		Open footer.php, look for class mozH-partner,
 		add an image wrapped in the link, just as the jaaga one.
 	*/
-	require_once("/footer.php");
+	require_once("../footer.php");
 	echo $footer;
 ?>
 
