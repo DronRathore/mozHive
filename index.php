@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<title>Hive India | Mozilla India</title>
-	<meta name="google-site-verification" content="jBnmQc4nssT_cc_1yfH09kLqNmKAC7M9GXrRLLv4QBM" />
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<meta http-equiv="keywords" content="Hive India, Hive, mozhive, Mozilla India, makerparty, web maker, awesome"/>
