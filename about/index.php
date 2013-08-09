@@ -86,7 +86,7 @@
 				<p>Sounds exciting? To learn more about how you can be part of Hive India, visit <a href="/events">events page</a>, stay connected with us with any of the below:</p>
 				<ul>
 				<li>Request ping back from <a href="http://hive.mozillaindia.org/contact"> contact us page</a>.</li>
-				<li>Contact Vinnel at <<a href="mailto:events@mozillaindia.org">events@mozillaindia.org</a>></li>
+				<li>Contact Vineel at <<a href="mailto:events@mozillaindia.org">events@mozillaindia.org</a>></li>
 				<li>Catch us on irc <a href="irc://irc.mozilla.org/">#mozillahive</a> <i>[awaiting confirmation]</i></li>
 				<li>Tweet us at <a href="https://twitter.com/intent/tweet?original_referer=http://hive.mozillaindia.org/team&text=I want to join hiveIndia&tw_p=tweetbutton&url=http%3A%2F%2Flocalhost%2FmozHive%2Fteam&via=hiveindia">@hiveindia</a></li>
 				</ul>
