@@ -4,5 +4,5 @@ $og=<<<OG
     <link rel="icon" type="image/x-icon" href="http://hive.mozillaindia.org/img/favicon.ico" />
 		<meta property="og:image" content="https://hive.mozillaindia.org/img/mozHive.jpg"/>
 		<meta property="og:site_name" content="Hive India"/>
-		<meta property="og:description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
+		<meta property="og:description" content="The Hive India is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning landscape."/>
 OG;
