@@ -23,7 +23,7 @@
 				<h1>About Hive India</h1>
 				Get to know about the cool community
 			</div>
-			<img src="http://hive.mozillaindia.org/img/8540302236_6ef3a5c9d2_h.jpg"/>
+			<img src="http://hive.mozillaindia.org/img/team_1.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap" style="margin: 0 auto;">
