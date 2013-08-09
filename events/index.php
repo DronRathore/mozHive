@@ -23,7 +23,7 @@
 				<h1>Projects</h1>
 				 Help us remake learning
 			</div>
-			<img src="http://hive.mozillaindia.org/img/8540296176_2f2ef974e0_b.jpg"/>
+			<img src="http://hive.mozillaindia.org/img/8540296176_2f2ef974e0_b.jpg" style="margin-top:140px;"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap">
