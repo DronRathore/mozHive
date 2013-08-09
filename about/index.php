@@ -81,7 +81,7 @@
 				<p>
 				<b>Sounds awesome?</b> How about becoming a partner of us and help us in this mission. <a href="http://hive.mozillaindia.org/contact">Contact us</a> to become a partner.
 				</p>
-				<h2 style="margin:0;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">TEAM</h2>
+				<h2 style="margin:0;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Our TEAM</h2>
 				<p>We are a group of passionate people who believe in and promote Connected Learning principles, digital literacy AND webmaking skills. Every member in our community is a leader of his/her field. We help people to explore, build things, let them find the right resources and tools required to excel their creativity.</p>
 				<p>Sounds exciting? To learn more about how you can be part of Hive India, visit <a href="/events">events page</a>, stay connected with us with any of the below:</p>
 				<ul>
