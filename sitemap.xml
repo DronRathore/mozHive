@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"><url>
+  <loc>http://hive.mozillaindia.org/</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/events/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/tools/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/about/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/contact/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/team</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/events/music-jam/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/events/robotikes-missions/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/events/webmaker/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/events/reportage/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hive.mozillaindia.org/events/comic/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
