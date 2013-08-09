@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
-	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people."/>
+	<meta name="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people."/>
 	<?php
 		require_once("../og.php");
 		echo $og;
@@ -23,7 +23,7 @@
 				<h1>About Hive India</h1>
 				Get to know about the cool community
 			</div>
-			<img src="http://hive.mozillaindia.org/img/8540302236_6ef3a5c9d2_h.jpg"/>
+			<img src="http://hive.mozillaindia.org/img/team_1.jpg"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap" style="margin: 0 auto;">
@@ -79,8 +79,17 @@
 				</li>
 				</ul>
 				<p>
-				<b>Sounds awesome?</b> How about becoming a partner of us and help us in this mission. <a href="http://hive.mozillaindia.org/contact">Contact us</a> to become a partner or <a href="http://hive.mozillaindia.org/team">follow here</a> to become a volunteer.
+				<b>Sounds awesome?</b> How about becoming a partner of us and help us in this mission. <a href="http://hive.mozillaindia.org/contact">Contact us</a> to become a partner.
 				</p>
+				<h2 style="margin:0;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Our TEAM</h2>
+				<p>We are a group of passionate people who believe in and promote Connected Learning principles, digital literacy AND webmaking skills. Every member in our community is a leader of his/her field. We help people to explore, build things, let them find the right resources and tools required to excel their creativity.</p>
+				<p>Sounds exciting? To learn more about how you can be part of Hive India, visit <a href="/events">events page</a>, stay connected with us with any of the below:</p>
+				<ul>
+				<li>Request ping back from <a href="http://hive.mozillaindia.org/contact"> contact us page</a>.</li>
+				<li>Contact Vinnel at <<a href="mailto:events@mozillaindia.org">events@mozillaindia.org</a>></li>
+				<li>Catch us on irc <a href="irc://irc.mozilla.org/">#mozillahive</a> <i>[awaiting confirmation]</i></li>
+				<li>Tweet us at <a href="https://twitter.com/intent/tweet?original_referer=http://hive.mozillaindia.org/team&text=I want to join hiveIndia&tw_p=tweetbutton&url=http%3A%2F%2Flocalhost%2FmozHive%2Fteam&via=hiveindia">@hiveindia</a></li>
+				</ul>
 			</div>
 			<!-- Do not touch things past this line
 			<?php

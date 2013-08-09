@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" id="facebook-jssdk"></script>
-	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
+	<meta name="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
 	<?php
 		require_once("../og.php");
 		echo $og;
@@ -23,7 +23,7 @@
 				<h1>Projects</h1>
 				 Help us remake learning
 			</div>
-			<img src="http://hive.mozillaindia.org/img/8540296176_2f2ef974e0_b.jpg"/>
+			<img src="http://hive.mozillaindia.org/img/8540296176_2f2ef974e0_b.jpg" style="margin-top:140px;"/>
 		</div>
 	</div>
 	<div class="mozH-content-wrap">
@@ -38,7 +38,7 @@
 			How to make a comic? What was the technique of Walt Disney? Can you play music using your body? How to make your own website? Can you change the page of Google? How to build a electric circuit? How to be a journalist? Help us answer some of these questions to tweens, teens, and young adults from college, the workforce, and civic participation. 
 			</p>
 			<p>
-			    <b>Maker Party 2013</b> will be happening <b>on 7th September at Jagaa.in, Bangalore. We invite you to host workshops that encourage learning through experimentation, construction and creation</b>. If you have an idea for a workshop or interested in facilitating with one of the areas,  including but not limited to video, music, digital   media, comics, story telling, game design, electronics, robotics,   Journalism  etc. at Maker Party 2013, please <a href="http://hive.mozillaindia.org/contact">contact us</a>! 
+			    <b>Maker Party 2013</b> will be happening <b>on 7th September at Jagaa.in, Bangalore. We invite you to host workshops that encourage learning through experimentation, construction and creation</b>. If you have an idea for a workshop or interested in facilitating with one of the areas,  including but not limited to video, music, digital   media, comics, story telling, game design, electronics, robotics,   Journalism  etc. at Maker Party 2013, talk to us at <a href="mailto:events@mozillaindia.org">events@mozillaindia.org</a>!
 			</p>
 			<h2 style="margin:0;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Workshops</h2>
 			<p>
