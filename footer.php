@@ -19,7 +19,7 @@ $footer=<<<FOOTER
 			<form action="http://geekved.com/hive/contact/s.php" id="signup" method="POST" onsubmit="return doSignup(this)">
 				<input type="text" name="name" placeholder="Full Name" aria-label="Full Name"/>
 				<input type="text" name="email" placeholder="Email Address" aria-label="Email Address"/>
-				<input type="submit" value="Signup"/>
+				<input type="submit" name="button" value="Signup"/>
 			</form>
 			</div>
 		</div>
