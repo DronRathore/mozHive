@@ -19,7 +19,7 @@
 	<div class="mozH-centerBodyWrap">
 		<div class="mozH-centerBody">
 			<h3>Contact Hive India</h3>
-			<form action="http://geekved.com/hive/c.php" method="POST" onsubmit="return doContact(this)">
+			<form action="http://geekved.com/hive/contact/c.php" method="POST" onsubmit="return doContact(this)">
 				<!-- I know you are laughing here, but hey you can replace table with alternate -->
 				<table class="mozH-contactForm">
 					<tr>
