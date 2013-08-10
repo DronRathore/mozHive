@@ -136,7 +136,7 @@ try{object.button.value="Signing Up...";object.name.disabled = object.email.disa
 			alert('Thats not an email');
 		}
 	}
-try{object.button.value="Signing Up...";object.name.disabled = object.email.disabled = "false";}catch(e){}
+try{object.button.value="Signup";object.name.disabled = object.email.disabled = "false";}catch(e){}
 	return false;
 }
 function doContact(object){
