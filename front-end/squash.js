@@ -115,6 +115,7 @@ JSON={
 	}
 };
 function doSignup(object){
+try{object.button.value="Signing Up...";object.button.disabled = object.name.disabled = object.email.disabled = "true";}catch(e){}
 	if (object.email.value.length>4) {
 		if (validateEmail(object.email.value)) {
 			if (isName(object.name.value)) {
@@ -135,9 +136,11 @@ function doSignup(object){
 			alert('Thats not an email');
 		}
 	}
+try{object.button.value="Signup";object.button.disabled = object.name.disabled = object.email.disabled = "false";}catch(e){}
 	return false;
 }
 function doContact(object){
+	try{object.button.value="Sending Request...";object.button.disabled = object.name.disabled = object.email.disabled  = object.message.disabled = "true";}catch(e){}
 if (object.message.value.length>10 && object.message.value.length<500) {
 	if (object.email.value.length>4) {
 		if (validateEmail(object.email.value)) {
@@ -162,6 +165,7 @@ if (object.message.value.length>10 && object.message.value.length<500) {
 } else {
 	alert("Message Length should be greater then 10 but less then 500 characters.");
 }
+	try{object.button.value="Ping us";object.button.disabled = object.name.disabled = object.email.disabled  = object.message.disabled = "false";}catch(e){}
 	return false;
 }
 function validateEmail(value){

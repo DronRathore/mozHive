@@ -34,7 +34,7 @@
 			<div class="mozH-text" style="font-weight:normal;">
 			<p> 
 			</p>
-			<p>Hive India is a network of organizations that share resources to advance learning in India. Hive India promotes experiential learning through the interests of young people and the creative use of digital media. The Hive India is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning  landscape. Hive India is a initiative of Mozilla India regional community, a community that is part of global community of Mozilla.
+			<p>Hive India is a network of organizations that share resources to advance learning in India. Hive India promotes experiential learning through the interests of young people and the creative use of digital media. The Hive India is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning  landscape.
 			</p>
 			<p>
 			   Hive India is a initiative of Mozilla India regional community, a community that is part of global community of Mozilla.

@@ -38,7 +38,7 @@
 			How to make a comic? What was the technique of Walt Disney? Can you play music using your body? How to make your own website? Can you change the page of Google? How to build a electric circuit? How to be a journalist? Help us answer some of these questions to tweens, teens, and young adults from college, the workforce, and civic participation. 
 			</p>
 			<p>
-			    <b>Maker Party 2013</b> will be happening <b>on 7th September at Jagaa.in, Bangalore. We invite you to host workshops that encourage learning through experimentation, construction and creation</b>. If you have an idea for a workshop or interested in facilitating with one of the areas,  including but not limited to video, music, digital   media, comics, story telling, game design, electronics, robotics,   Journalism  etc. at Maker Party 2013, talk to us at <a href="mailto:events@mozillaindia.org">events@mozillaindia.org</a>!
+			    <b>Maker Party 2013</b> will be happening <b>on 7th September at Jagaa.in, Bangalore. <b>Mark Surman</b>, <b>Director</b> <i>at</i> <b>Mozilla Foundation</b> will be joining us at Maker Party We invite you to host workshops that encourage learning through experimentation, construction and creation</b>. If you have an idea for a workshop or interested in facilitating with one of the areas,  including but not limited to video, music, digital   media, comics, story telling, game design, electronics, robotics,   Journalism  etc. at Maker Party 2013, talk to us at <a href="mailto:events@mozillaindia.org">events@mozillaindia.org</a>!
 			</p>
 			<h2 style="margin:0;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Workshops</h2>
 			<p>
