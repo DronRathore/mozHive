@@ -47,7 +47,7 @@
 						</td>
 					</tr>
 				</table>
-				<center><input type="submit" class="mozH-submitButton" value="Ping us"/></center>
+				<center><input type="submit" name="button" class="mozH-submitButton" value="Ping us"/></center>
 			</form>
 		</div>
 	</div>
