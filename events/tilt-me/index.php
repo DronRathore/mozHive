@@ -38,6 +38,24 @@
 			<p>Take part in a workshop designed for the robotixlab Hive, invented the inventor that you hiding inside yourself and learn the basics of an electronic circuit making the tiltMe. The tiltMe is a DIY night light to light enough not to press a switch. Improvised creatively and modified the building making it unique.</p>
 			<p>This workshop contains all the necessary parts, tools and instructions to construct and modify the tiltMe. Leaving you will get with you making that cake!</p>
 			</div>
+			<div class="mozH-text">
+				<h2 style="margin:0;width: 960px;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Workshop Partners</h2>
+				<p>
+					<a href="http://www.3Ding.in/"><img class="mozH-image" src="/img/3ding.png" style="width:150px;box-shadow:none;"/></a>
+					<h4>3Ding</h4>
+					3D-ing is a part of Redd Robotics focused on bringing 3D printers and 3D printing services to the common man at affordable prices in the country. Sounds amazing? Well they will take you with more amusement on the day of workshop, stay close to them maybe they will make your 3D avatar!
+				</p>
+				<p align="right"><a href="http://www.3Ding.in/">www.3Ding.in</a></p>
+				</div>
+				<div class="mozH-text">
+				<p>
+					<a href="http://www.simplelabs.co.in/"><img class="mozH-image" src="/img/simplelabs.png" style="width:150px;box-shadow:none;"/></a>
+					<h4>Simple Labs</h4>
+					Simple Labs Work closely with the electronics and the components of it.
+					<br/>
+				<p align="right"><a href="http://www.simplelabs.co.in/">www.simplelabs.co.in</a></p>
+				</p>
+			</div>
 			<!-- Social Stuff -->
 <?php
 	require_once("../../social.php");
