@@ -186,3 +186,23 @@ function isName(value){
 		return false;
 	}
 }
+window.currentFrame = -1;
+window.slideCount = 3;
+window.onload = function(){
+	setInterval(function(){
+	var fader = document.getElementById("fader");
+	var c = fader.children[window.currentFrame];
+		if ( window.currentFrame == window.slideCount ) {
+		$(c).fadeOut(110);
+		window.currentFrame = 0;
+		var c = fader.children[window.currentFrame];
+		setTimeout(function(){$(c).fadeIn(500);}, 100);
+		} else {
+			var c = fader.children[window.currentFrame];
+			$(c).fadeOut(110);
+			window.currentFrame++;
+			var c = fader.children[window.currentFrame];
+			setTimeout(function(){$(c).fadeIn(500);}, 100);
+		}
+	}, 4300);
+}

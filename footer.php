@@ -6,9 +6,25 @@ $footer=<<<FOOTER
 			<div class="mozH-lfloat mozH-s">
 				<h3>Partners</h3>
 				<div class="mozH-partner-list">
-					<ul class="mozH-noStyle mozH-partners">
+				<script src="/front-end/jquery.js"></script>
+				<style>
+				.mozH-partners li{display:none;}
+				</style>
+					<ul id="fader" class="mozH-noStyle mozH-partners">
 						<li>
-							<a href="http://www.jaaga.in/"><img src="http://www.jaaga.in/sites/default/files/jaaga%20logo%20200pix%20short.jpg"/></a>
+							<a href="http://www.jaaga.in/" target="_blank"><img src="http://www.jaaga.in/sites/default/files/jaaga%20logo%20200pix%20short.jpg"/></a>
+						</li>
+						<li>
+							<a href="http://www.redd.in/" target="_blank"><img src="/img/redd.png"/></a>
+						</li>
+						<li>
+							<a href="http://www.roboinventions.com/" target="_blank"><img src="/img/robori.png"/></a>
+						</li>
+						<li>
+							<a href="http://www.simplelabs.co.in/" target="_blank"><img src="/img/simplelabs.png"/></a>
+						</li>
+						<li>
+							<a href="http://www.3ding.in/" target="_blank"><img src="/img/3ding.png"/></a>
 						</li>
 					</ul>
 				</div>
