@@ -50,10 +50,18 @@
 				<div class="mozH-text">
 				<p>
 					<a href="http://www.simplelabs.co.in/"><img class="mozH-image" src="/img/simplelabs.png" style="width:150px;box-shadow:none;"/></a>
-					<h4>Simple Labs</h4>
-					Simple Labs Work closely with the electronics and the components of it.
+					<h4> Simple Labs </h4>
+					Simple Labs Work closely with the electronics and the components of it. They will fill you with the coolest learning about electronics upto the brink. Simple Labs work closely with electronics components that will take your fantasy.
 					<br/>
 				<p align="right"><a href="http://www.simplelabs.co.in/">www.simplelabs.co.in</a></p>
+				</p>
+			</div>
+			<div class="mozH-text">
+				<p>
+					<a href="http://www.simplelabs.co.in/"><img class="mozH-image" src="/img/niche.png" style="width:150px;box-shadow:none;"/></a>
+					<h4>FireFlies | Niche</h4>
+					FireFlies is a session on wearable technology by NICHE(<b>N</b>ew <b>I</b>deas <b>I</b>n <b>C</b>hildren's <b>E</b>ducation). In this session we will focus on showing how electronics can be used in clothing and accessories for form and function. Lighting up costumes to adding music and monitoring health, we will show how electronics can be added to wearables. The participants will get a chance to assemble their own electronic clothing.
+					<br/>
 				</p>
 			</div>
 			<!-- Social Stuff -->
