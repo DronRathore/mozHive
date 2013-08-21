@@ -66,7 +66,7 @@
 			</div>
 			<div class="mozH-text">
 				<p>
-					<a href="http://www.cycloid.in/"><img class="mozH-image" src="img/cycloid.png" style="width:150px;box-shadow:none;"/></a>
+					<a href="http://www.cycloid.in/"><img class="mozH-image" src="/img/cycloid.png" style="width:150px;box-shadow:none;"/></a>
 					<h4>Cycloid</h4>
 					Cycloid works in the field of 3D printing. Cycloid System has small team of like minded engineers having background various engineering branches such as Instrumentation and Control, Electronics, Mechanical, Mechatronics and Computer.
 					<br/>
@@ -76,7 +76,7 @@
 			<h2 style="margin:0;width: 960px;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Speaker's</h2>
 			<div class="mozH-text">
 				<p>
-					<a href="http://www.sudarmuthu.com"><img class="mozH-image" src="img/sudar.jpg" style="width:150px;box-shadow:none;"/></a>
+					<a href="http://www.sudarmuthu.com"><img class="mozH-image" src="/img/sudar.jpg" style="width:150px;box-shadow:none;"/></a>
 					<h4>Sudar Muthu</h4>
 					Sudar builds robots as a hobby and Arduino is his playground. Check out his hardware projects at <a href="http://hardwarefun.com">http://hardwarefun.com</a>. The session will help people to build basic electronics circuits and also get an idea about Arduino and Raspberry Pi.
 					<br/>
