@@ -450,12 +450,21 @@
 	}
 	.mozH-text .mozH-noStyle li{
 		cursor: default;
-		width: 900px;
+		width: 280px;
 		padding: 6px;
+		margin-left:10px;
+		margin-top: 10px;
+		min-height: 390px;
+		border:1px solid #ddd;
+		border-radius: 3px;
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	}
+	.mozH-text .mozH-noStyle li:hover{
+		background: #fff;
 	}
 	.mozH-text .mozH-noStyle .mozH-eventThumb{
 		float: left;
-		width: 313px;
+		width: 280px;
 		border: 1px solid #ccc;
 		box-shadow: 0 0 4px #c3d1ec;
 		height: 157px;
@@ -463,9 +472,11 @@
 	}
 	.mozH-eventThumb img{
 		width: 313px;
+		margin-left: -13px;
 	}
 	.mozH-text .mozH-noStyle li:hover .mozH-hiddenLink{
-		 margin-top:-33px;
+		 margin-top:-34px;
+		 margin-left: -12px;
 		 -moz-transform:scale(1.1);
 		 transform:scale(1.1);
 text-shadow: 0 0 2px #000;		 -o-transform:scale(1.1);
@@ -476,6 +487,40 @@ text-shadow: 0 0 2px #000;		 -o-transform:scale(1.1);
 		-webkit-transition-property: margin, transform;
 		-ms-transition-property: margin, transform;
 		transition-property: margin, transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+	}
+	.mozH-text .mozH-noStyle li{
+		-moz-transform:scale(0.95);
+		 transform:scale(0.95);
+		 -o-transform:scale(0.95);
+		-ms-transform:scale(0.95);
+		-webkit-transform:scale(0.95);
+		-moz-transition-property: transform;
+		-o-transition-property: transform;
+		-webkit-transition-property: transform;
+		-ms-transition-property:  transform;
+		transition-property: transform;
+		-moz-transition-duration: 300ms;
+		-o-transition-duration: 300ms;
+		-webkit-transition-duration: 300ms;
+		-ms-transition-duration: 300ms;
+		transition-duration: 300ms;
+	}
+	.mozH-text .mozH-noStyle li:hover{
+		-moz-transform:scale(1);
+		 transform:scale(1);
+		 -o-transform:scale(1);
+		-ms-transform:scale(1);
+		-webkit-transform:scale(1);
+		-moz-transition-property: transform;
+		-o-transition-property: transform;
+		-webkit-transition-property: transform;
+		-ms-transition-property:  transform;
+		transition-property: transform;
 		-moz-transition-duration: 300ms;
 		-o-transition-duration: 300ms;
 		-webkit-transition-duration: 300ms;
@@ -499,7 +544,7 @@ text-shadow: 0 0 2px #000;		 -o-transform:scale(1.1);
 	}
 	.mozH-eventDescWrap{
 		float: left;
-		width: 550px;
+		width: 260px;
 		padding: 5px;
 		margin-left: 10px; 
 	}
