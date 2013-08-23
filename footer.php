@@ -18,13 +18,16 @@ $footer=<<<FOOTER
 							<a href="http://www.redd.in/" target="_blank"><img src="/img/redd.png"/></a>
 						</li>
 						<li>
-							<a href="http://www.roboinventions.com/" target="_blank"><img src="/img/robori.png"/></a>
+							<a href="http://www.roboinventions.com/" target="_blank"><img src="/img/robori-s.png"/></a>
 						</li>
 						<li>
 							<a href="http://www.simplelabs.co.in/" target="_blank"><img src="/img/simplelabs.png"/></a>
 						</li>
 						<li>
 							<a href="http://www.3ding.in/" target="_blank"><img src="/img/3ding.png"/></a>
+						</li>
+						<li>
+							<a href="http://www.cycloid.in/" target="_blank"><img src="/img/cycloid-s.png"/></a>
 						</li>
 					</ul>
 				</div>
