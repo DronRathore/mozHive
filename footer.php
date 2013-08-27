@@ -29,6 +29,9 @@ $footer=<<<FOOTER
 						<li>
 							<a href="http://www.cycloid.in/" target="_blank"><img src="/img/cycloid-s.png"/></a>
 						</li>
+						<li>
+							<a href="http://www.bibox.in/" target="_blank"><img src="/img/bibox.png"/></a>
+						</li>
 					</ul>
 				</div>
 			</div>

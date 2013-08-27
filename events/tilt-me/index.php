@@ -1,4 +1,4 @@
-  <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 	<title>Hive India | TiltMe</title>
@@ -71,6 +71,15 @@
 					Cycloid works in the field of 3D printing. Cycloid System has small team of like minded engineers having background various engineering branches such as Instrumentation and Control, Electronics, Mechanical, Mechatronics and Computer.
 					<br/>
 					<p align="right"><a href="http://www.cycloid.in/">www.cycloid.in</a></p>
+				</p>
+			</div>
+			<div class="mozH-text">
+				<p>
+					<a href="http://www.bibox.in/"><img class="mozH-image" src="/img/bibox.png" style="width:150px;box-shadow:none;"/></a>
+					<h4>Smart Gadgets Simplified | BIBOX</h4>
+					 Making any smart gadget of your own is a difficult and tiring job and involves understanding multiple domains like Electronics and Programming. Not anymore! This workshop will help you get into the world of Do It Yourself Gadgets and Automation's in an affordable manner. BIBOX (Brain in Box) is an easy to use programmable electronic platform. Using BIBOX you can design and build real world gadgets ranging from Robotic toys to automation of machines.
+					<br/>
+					<p align="right"><a href="http://www.bibox.in/">www.bibox.in</a></p>
 				</p>
 			</div>
 			<h2 style="margin:0;width: 960px;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Speaker's</h2>
