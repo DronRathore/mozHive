@@ -59,9 +59,6 @@
 						<div class="mozH-eventDescWrap">
 							<div class="mozH-eventDesc">
 								<h4>Music Jam<div class="mozH-Type"><b>·</b> Workshop</div></h4>
-								<div class="mozH-text">
-								On MusicJam we create together our own musical instruments and will be for awhile a complex different from the other. The keys, percussion, guitar and other experimental instruments reside within computers. "We ourselves" musical instruments in the real world and "play" music. 
-								</div>
 							</div>
 						</div>
 					</a>
@@ -80,9 +77,6 @@
 					<a href="./robotikes-missions">
 						<div class="mozH-eventDescWrap">
 						<h4>ROBOTIKES MISSIONS<div class="mozH-Type"><b>·</b> Workshop</div></h4>
-								<div class="mozH-text">
-								Robots in action how to "see" the robots? How they decide to quit or to twist to avoid an obstacle? How to understand that arrived to the point that they want? To answer all these questions, you will assemble your robot and you will see how it works in practice.
-								</div>
 						</div>
 					</a>
 					</div>
@@ -100,9 +94,6 @@
 						<a href="./robotikes-missions">
 						<div class="mozH-eventDescWrap">
 						<h4>REMIXING WEBPAGE<div class="mozH-Type"><b>·</b> Workshop</div></h4>
-								<div class="mozH-text">
-								The laboratory develops Websites on Remixing idea that the text is a driving force for today's digital technology and its applications. In the context of informal education the idea is worth investigating and to come to dialogue with the dominant perception of the prevalence of audiovisual information. 
-								</div>
 						</div>
 						</a>
 					</div>
@@ -120,9 +111,6 @@
 					<a href="./tilt-me">
 						<div class="mozH-eventDescWrap">
 						<h4>Electronics TiltMe<div class="mozH-Type"><b>·</b> Workshop</div></h4>
-								<div class="mozH-text">
-								LEDs, resistors, cables, batteries ... A sensor. Concepts encoded, words lost in hyperstimulation neural network profiles or a simple application of creative online; Take part in workshop designed for the robotixlab Hive, invented the inventor that you hiding inside yourself and learn the basics of an electronic circuit board manufacturing the tiltMe.  
-								</div>
 						</div>
 					</div>
 					</a>
@@ -140,9 +128,6 @@
 					<a href="./reportage">
 						<div class="mozH-eventDescWrap">
 						<h4>MAKE YOUR OWN REPORTAGE<div class="mozH-Type"><b>·</b> Workshop</div></h4>
-								<div class="mozH-text">
-								We take cameras and microphones and will become reporters for the Hive. With the guidance of experienced journalists, we want to show in the most simple way how information can become news. Through our own previous reportage, narratives and adventures will talk about the basic principles of journalism.   
-								</div>
 						</div>
 					</a>
 					</div>
@@ -160,9 +145,6 @@
 					<a href="./comic">
 						<div class="mozH-eventDescWrap">
 						<h4>COMIC STORYBOARD<div class="mozH-Type"><b>·</b> Workshop</div></h4>
-								<div class="mozH-text">
-								The BIGGEST LIE the WORLD Invent, mix and compile our own narratives through comics! the art of comics is a narrative medium, combining image and why, in a unique way. And as a separate art has this secret codes and techniques.   
-								</div>
 						</div>
 						</a>
 					</div>
