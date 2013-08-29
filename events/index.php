@@ -47,7 +47,7 @@
 			<ul class="mozH-noStyle">
 				<li>
 					<div class="mozH-eventWrap">
-					<a href="./music-jam">
+					<a href="/tools">
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/ada9a09acea936d776a6f55c82778c43_M.jpg"/>
 							<div class="mozH-hiddenLink">
@@ -55,7 +55,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="./music-jam">
+					<a href="/tools">
 						<div class="mozH-eventDescWrap">
 							<div class="mozH-eventDesc">
 								<h4>Music Jam<div class="mozH-Type"><b>·</b> Workshop</div></h4>
@@ -117,7 +117,7 @@
 				</li>
 				<li>
 					<div class="mozH-eventWrap">
-					<a href="./reportage">
+					<a href="/tools">
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/94d43e327d9303539cb1e2aac7032668_M.jpg"/>
 							<div class="mozH-hiddenLink">
@@ -125,7 +125,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="./reportage">
+					<a href="/tools">
 						<div class="mozH-eventDescWrap">
 						<h4>MAKE YOUR OWN REPORTAGE<div class="mozH-Type"><b>·</b> Workshop</div></h4>
 						</div>
@@ -134,7 +134,7 @@
 				</li>
 				<li>
 					<div class="mozH-eventWrap">
-					<a href="./comic">
+					<a href="/tools">
 						<div class="mozH-eventThumb">
 							<img src="http://www.hiveathens.org/media/k2/items/cache/ffee2447b152494b43d9816faaea83c8_M.jpg"/>
 							<div class="mozH-hiddenLink">
@@ -142,7 +142,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="./comic">
+					<a href="/tools">
 						<div class="mozH-eventDescWrap">
 						<h4>COMIC STORYBOARD<div class="mozH-Type"><b>·</b> Workshop</div></h4>
 						</div>
