@@ -32,6 +32,9 @@ $footer=<<<FOOTER
 						<li>
 							<a href="http://www.bibox.in/" target="_blank"><img src="/img/bibox.png"/></a>
 						</li>
+						<li>
+							<a href="http://www.dhruvspace.com/" target="_blank"><img src="/img/dhruva.png"/></a>
+						</li>
 					</ul>
 				</div>
 			</div>
