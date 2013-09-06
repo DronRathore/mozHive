@@ -187,7 +187,7 @@ function isName(value){
 	}
 }
 window.currentFrame = -1;
-window.slideCount = 6;
+window.slideCount = 7;
 window.onload = function(){
 	setInterval(function(){
 	var fader = document.getElementById("fader");

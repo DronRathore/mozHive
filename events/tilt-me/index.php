@@ -82,6 +82,15 @@
 					<p align="right"><a href="http://www.bibox.in/">www.bibox.in</a></p>
 				</p>
 			</div>
+			<div class="mozH-text">
+				<p>
+					<a href="http://dhruvaspace.com"><img class="mozH-image" src="/img/dhruva.png" style="width:150px;box-shadow:none;"/></a>
+					<h4>DhruvaSpace</h4>
+					 Have you heard of Nano Satellites? Want to learn the cool satellite technologies? Well we got the experts from dhruvaspace, the renowned space technology spreading firm.
+					<br/>
+					<p align="right"><a href="http://dhruvaspace.com">www.dhruvaspace.com</a></p>
+				</p>
+			</div>
 			<h2 style="margin:0;width: 960px;text-align:left;font-size: 18px;border-bottom: 1px solid #eee;">Speaker's</h2>
 			<div class="mozH-text">
 				<p>
