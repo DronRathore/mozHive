@@ -136,7 +136,9 @@ try{object.button.value="Signing Up...";object.button.disabled = object.name.dis
 			alert('Thats not an email');
 		}
 	}
-try{object.button.value="Signup";object.button.disabled = object.name.disabled = object.email.disabled = "false";}catch(e){}
+try{object.button.value="Signup";
+for (var i=0; i<object.elements.length;i++) object.elements[i].disabled = false;
+}catch(e){}
 	return false;
 }
 function doContact(object){
@@ -165,7 +167,11 @@ if (object.message.value.length>10 && object.message.value.length<500) {
 } else {
 	alert("Message Length should be greater then 10 but less then 500 characters.");
 }
-	try{object.button.value="Ping us";object.button.disabled = object.name.disabled = object.email.disabled  = object.message.disabled = "false";}catch(e){}
+	try{
+         object.button.value= "Ping Us";
+         for (var i=0; i<object.elements.length;i++)
+           object.elements[i].disabled = false;
+      }catch(e){}
 	return false;
 }
 function validateEmail(value){
