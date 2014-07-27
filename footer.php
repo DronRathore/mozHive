@@ -12,7 +12,7 @@ $footer=<<<FOOTER
 				</style>
 					<ul id="fader" class="mozH-noStyle mozH-partners">
 						<li>
-							<a href="http://www.jaaga.in/" target="_blank"><img src="http://www.jaaga.in/sites/default/files/jaaga%20logo%20200pix%20short.jpg"/></a>
+							<a href="http://www.jaaga.in/" target="_blank"><img src="http://jaaga.in/wp-content/uploads/2013/09/jaaga_brandmark_website.jpg"/></a>
 						</li>
 						<li>
 							<a href="http://www.redd.in/" target="_blank"><img src="/img/redd.png"/></a>
