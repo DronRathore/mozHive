@@ -37,7 +37,7 @@
 				<li>
 					<div class="mozH-eventWrap">
 						<div class="mozH-eventThumb">
-							<img src="http://hiveathens.org/media/k2/items/cache/e31ace2a15a7c70645ad83df9ecd43b0_M.jpg"/>
+							<img src="https://goggles.webmaker.org/img/goggles.png"/>
 							<div class="mozH-hiddenLink">
 									Give it a try, <a href="https://webmaker.org/en-US/tools/#x-ray-goggles">Follow in here</a>
 							</div>
@@ -55,7 +55,7 @@
 				<li>
 					<div class="mozH-eventWrap">
 						<div class="mozH-eventThumb">
-							<img src="http://hiveathens.org/media/k2/items/cache/d61d44254608dd06ccdd2ff02982d14d_M.jpg"/>
+							<img src="http://media.ossblog.it/m/moz/mozillathimble.jpg"/>
 							<div class="mozH-hiddenLink">
 									More cool info, <a href="http://thimble.webmaker.org">follow here</a>
 							</div>
@@ -71,7 +71,7 @@
 				<li>
 					<div class="mozH-eventWrap">
 						<div class="mozH-eventThumb">
-							<img src="http://hiveathens.org/media/k2/items/cache/184b7cb84d7b456c96a0bdfbbeaa5f14_M.jpg"/>
+							<img src="https://popcorn.webmaker.org/resources/icons/fb-logo.png"/>
 							<div class="mozH-hiddenLink">
 									Thrilled? <a href="https://popcorn.webmaker.org/">Follow here</a>
 							</div>
