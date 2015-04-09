@@ -115,7 +115,13 @@ JSON={
 	}
 };
 function doSignup(object){
-try{object.button.value="Signing Up...";object.button.disabled = object.name.disabled = object.email.disabled = "true";}catch(e){}
+	try{
+		object.button.value="Signing Up...";
+		object.button.disabled = object.name.disabled = object.email.disabled = "true";
+	}catch(e){
+		// pass
+		console.log("Something went wrong", e)
+	}
 	if (object.email.value.length>4) {
 		if (validateEmail(object.email.value)) {
 			if (isName(object.name.value)) {
@@ -136,37 +142,46 @@ try{object.button.value="Signing Up...";object.button.disabled = object.name.dis
 			alert('Thats not an email');
 		}
 	}
-try{object.button.value="Signup";
-for (var i=0; i<object.elements.length;i++) object.elements[i].disabled = false;
-}catch(e){}
+	try{
+		object.button.value="Signup";
+	for (var i=0; i<object.elements.length;i++)
+		object.elements[i].disabled = false;
+	}catch(e){
+		console.log("Something went wrong", e)
+	}
 	return false;
 }
 function doContact(object){
-	try{object.button.value="Sending Request...";object.button.disabled = object.name.disabled = object.email.disabled  = object.message.disabled = "true";}catch(e){}
-if (object.message.value.length>10 && object.message.value.length<500) {
-	if (object.email.value.length>4) {
-		if (validateEmail(object.email.value)) {
-			if (isName(object.name.value)) {
-				var transport = new Ajax(object.action, "POST");
-				transport.data({email:object.email.value, name:object.name.value, message:object.message.value, _ajax:true});
-				transport.JSON(function(data){{
-					if (data.error === 1) {
-						alert("Thanks for your interest in Hive India\nWe have recieved your request and will shortly revert.\nThanks\nHive India Team");
-						object.email.value = object.name.value = object.message.value = "";
-					} else {
-						alert("Check the inputs you provided, they doesnt seems good!");
-					}
-				}});
-			} else{
-				alert("Is that a name?");
-			}
-		} else{
-			alert('Thats not an email');
-		}
+	try{
+		object.button.value="Sending Request...";
+		object.button.disabled = object.name.disabled = object.email.disabled  = object.message.disabled = "true";
+	}catch(e){
+		console.log("Something went wrong", e)
 	}
-} else {
-	alert("Message Length should be greater then 10 but less then 500 characters.");
-}
+	if (object.message.value.length>10 && object.message.value.length<500) {
+		if (object.email.value.length>4) {
+			if (validateEmail(object.email.value)) {
+				if (isName(object.name.value)) {
+					var transport = new Ajax(object.action, "POST");
+					transport.data({email:object.email.value, name:object.name.value, message:object.message.value, _ajax:true});
+					transport.JSON(function(data){{
+						if (data.error === 1) {
+							alert("Thanks for your interest in Hive India\nWe have recieved your request and will shortly revert.\nThanks\nHive India Team");
+							object.email.value = object.name.value = object.message.value = "";
+						} else {
+							alert("Check the inputs you provided, they doesnt seems good!");
+						}
+					}});
+				} else{
+					alert("Is that a name?");
+				}
+			} else{
+				alert('Thats not an email');
+			}
+		}
+	} else {
+		alert("Message Length should be greater then 10 but less then 500 characters.");
+	}
 	try{
          object.button.value= "Ping Us";
          for (var i=0; i<object.elements.length;i++)
@@ -175,15 +190,15 @@ if (object.message.value.length>10 && object.message.value.length<500) {
 	return false;
 }
 function validateEmail(value){
-if ( value.indexOf(" ") == -1 && value.indexOf("@") == value.lastIndexOf("@") &&/(([_a-zA-Z0-9]*).(@).([\-a-zA-Z0-9]*).([.]).([a-zA-Z0-9.]*))/.test(value) && /([!#$%^&*()`'\"<>{}\[\],~?:;|\\+=\/])/.test(value) == false) {
-	if (value.charAt(0) != "." && value.charAt(value.length-1) != "." && value.charAt(value.indexOf(".")+1) != "." && value.charAt(value.indexOf(".")-1) != "." && value.charAt(value.indexOf("@")+1) != "." && value.charAt(value.indexOf("@")-1) != ".") {
-		return true;
+	if ( value.indexOf(" ") == -1 && value.indexOf("@") == value.lastIndexOf("@") &&/(([_a-zA-Z0-9]*).(@).([\-a-zA-Z0-9]*).([.]).([a-zA-Z0-9.]*))/.test(value) && /([!#$%^&*()`'\"<>{}\[\],~?:;|\\+=\/])/.test(value) == false) {
+		if (value.charAt(0) != "." && value.charAt(value.length-1) != "." && value.charAt(value.indexOf(".")+1) != "." && value.charAt(value.indexOf(".")-1) != "." && value.charAt(value.indexOf("@")+1) != "." && value.charAt(value.indexOf("@")-1) != ".") {
+			return true;
+		} else {
+			return false;
+		}
 	} else {
 		return false;
 	}
-} else {
-	return false;
-}
 }
 function isName(value){
 	if (/([_\-0-9@!#$%^&*()`'\"<>{}\[\],~?:;|\\+=\/])/.test(value) == false) {
