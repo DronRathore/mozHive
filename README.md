@@ -1,6 +1,6 @@
 mozHive
 =======
-This code is distributed under MPL(Mozilla Public License).
+This code is distributed under MPL(Mozilla Public License v2.0).
 
 Hive India website
 ## Platform
