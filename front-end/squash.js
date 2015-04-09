@@ -31,24 +31,24 @@ function Ajax(url,method,element) {
 		this.object.errorHandler = callback;
 	}
 	Ajax.prototype.data=function(raw_data){
-							/*
-								If it is a Form Element
-							*/
-							if(raw_data.elements){
-								this.d="";
-								this.object.form=raw_data;
-								for(i=0;i<raw_data.elements.length;i++){
-									if(raw_data.elements[i].type!="button"&&raw_data.elements[i].type!="reset"&&raw_data.elements[i].type!="submit")
-									this.d+="&" + raw_data.elements[i].name + "=" + raw_data.elements[i].value;
-								}
-							}else{
-								this.d="";
-								for(elem in raw_data){
-									this.d+="&" + elem + "=" + raw_data[elem];
-								}
-							}
-							return this;
-					};
+		/*
+			If it is a Form Element
+		*/
+		if(raw_data.elements){
+			this.d="";
+			this.object.form=raw_data;
+			for(i=0;i<raw_data.elements.length;i++){
+				if(raw_data.elements[i].type!="button"&&raw_data.elements[i].type!="reset"&&raw_data.elements[i].type!="submit")
+				this.d+="&" + raw_data.elements[i].name + "=" + raw_data.elements[i].value;
+			}
+		}else{
+			this.d="";
+			for(elem in raw_data){
+				this.d+="&" + elem + "=" + raw_data[elem];
+			}
+		}
+		return this;
+};
 	Ajax.prototype.send=function(callbacks){
 	if (this.method != "POST")
 		this.object.open(this.method,this.url+(this.d?"?"+this.d:""),true);
