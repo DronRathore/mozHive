@@ -3,6 +3,7 @@
 <head>
 	<title>Hive India | Mozilla India</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,700,600,600italic,700italic"/>
 	<link rel="stylesheet" media="all" href="http://hive.mozillaindia.org/front-end/splash.css"/>
 	<meta http-equiv="keywords" content="Hive India, Hive, mozhive, Mozilla India, makerparty, web maker, awesome"/>
 	<meta http-equiv="description" content="Welcome to Hive India, we promote learning and teaching of web and digital media to the people. We strongly believe in people just like you who are eager to learn the Open and Free Standards of the Web."/>
