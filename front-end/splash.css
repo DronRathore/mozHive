@@ -2,7 +2,7 @@
 @font-face{font-family:FeuraSansWeb;src:url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Regular.woff?1375393909440) format('woff'),url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Regular.svg?1375393909440#FeuraSansWebRegular) format('svg');font-weight:400;font-style:normal}
 @font-face{font-family:FeuraSansWeb;src:url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Medium.woff?1375393909440) format('woff'),url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Medium.svg?1375393909440#FeuraSansWebMedium) format('svg');font-weight:500;font-style:normal}
 @font-face{font-family:FeuraSansWeb;src:url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Bold.woff?1375393909440) format('woff'),url(https://marketplace.cdn.mozilla.net/media/fireplace/fonts/FeuraSans/FeuraSansWeb-Bold.svg?1375393909440#FeuraSansWebBold) format('svg');font-weight:600;font-style:normal}
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,700,600,600italic,700italic);
+
 
 .throbber{width: 100%;height: 100%;position: fixed;background: #fff;z-index: 2000;top: 0; left:0;}
 .throbber .inside{margin: 15% auto;width: 300px;}
